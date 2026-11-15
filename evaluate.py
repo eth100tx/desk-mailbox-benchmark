@@ -15,7 +15,7 @@ def clean_json(answer):
     return json.loads(match.group(1) if match else answer)["rows"]
 
 def generate(model,prompt):
-    if model.endswith("-policy-think"):
+    if model.endswith("-policy-think") or model=="haiku-full95":
         prompt=("Apply these evidence conventions to each family independently. Lines beginning with > are quoted history, "
                 "even though the packet stores them inside the body string. Cite quote for a source assertion on such a line. "
                 "First inventory the delivered values and their record identifiers. For each delivered value, find the source "
@@ -35,14 +35,14 @@ def generate(model,prompt):
         return r["response"],dict(input=r["prompt_eval_count"],output=r["eval_count"],usd=0,model=r["model"],decode_ns=r["eval_duration"])
     env={k:v for k,v in os.environ.items() if k not in {"ANTHROPIC_API_KEY","ANTHROPIC_AUTH_TOKEN","ANTHROPIC_BASE_URL","OPENAI_API_KEY","OPENAI_BASE_URL"}}
     with tempfile.TemporaryDirectory() as tmp:
-        if model=="haiku":
+        if model in {"haiku","haiku-full95"}:
             command=[shutil.which("claude"),"-p","--model","haiku","--tools","","--strict-mcp-config","--setting-sources","","--no-session-persistence","--output-format","json"]
         else:
             exe=os.environ.get("CODEX_EXE") or shutil.which("codex")
             command=[exe,"exec","--model","gpt-6-luna","--ephemeral","--ignore-user-config","--ignore-rules","--skip-git-repo-check","--sandbox","read-only","--json","-"]
         p=subprocess.run(command,input=prompt,env=env,cwd=tmp,capture_output=True,encoding="utf8",errors="replace",timeout=360)
         if p.returncode: raise RuntimeError((p.stderr or p.stdout)[-800:])
-        if model=="haiku":
+        if model in {"haiku","haiku-full95"}:
             r=json.loads(p.stdout)
             if r.get("is_error"): raise RuntimeError(r["result"])
             usage=r["usage"]
@@ -59,7 +59,9 @@ def main():
     cli.add_argument("--binding",action="store_true")
     cli.add_argument("--batch-size",type=int)
     args=cli.parse_args()
-    if args.model not in {"bolt","qwen","haiku","luna","ema"} and not re.fullmatch(r"local-[a-z0-9][a-z0-9-]*",args.model):
+    if args.batch_size is not None and args.batch_size < 1:
+        cli.error("--batch-size must be positive")
+    if args.model not in {"bolt","qwen","haiku","haiku-full95","luna","ema"} and not re.fullmatch(r"local-[a-z0-9][a-z0-9-]*",args.model):
         cli.error("Expected an existing entrant or local-<checkpoint> for llama.cpp")
     target=ROOT/"runs"/(args.model+("-binding" if args.binding else ""));target.mkdir(parents=True,exist_ok=True)
     data=ROOT/"data"/("binding" if args.binding else "")
@@ -68,6 +70,7 @@ def main():
     if args.batch_size:
         ids=[ident for batch in schedule for ident in batch]
         schedule=[ids[i:i+args.batch_size] for i in range(0,len(ids),args.batch_size)]
+    if args.batch_size or (target/"schedule.json").exists():
         (target/"schedule.json").write_text(json.dumps(schedule,indent=2))
     guide=(ROOT/"policy.txt").read_text()
     if args.model=="ema":

@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "2402a074e861",
+    "f99a533c2c05",
+    "6bc834f97538",
+    "8424d06a8bc2"
+  ],
+  "rows": [
+    {
+      "id": "2402a074e861",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "missing"
+    },
+    {
+      "id": "f99a533c2c05",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:2",
+      "issue": "correct"
+    },
+    {
+      "id": "6bc834f97538",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "8424d06a8bc2",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"2402a074e861\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Register!B2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"f99a533c2c05\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"6bc834f97538\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"8424d06a8bc2\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1141,
+    "output": 2296,
+    "usd": 0,
+    "model": "qwen38-27b-2048-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 57.48209019983187
+}

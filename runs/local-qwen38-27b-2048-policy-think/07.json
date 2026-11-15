@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "195f882484c9",
+    "4e9f0c5c990a",
+    "bb169b3b4a96",
+    "8c554497e07a"
+  ],
+  "rows": [
+    {
+      "id": "195f882484c9",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "body",
+      "issue": "correct"
+    },
+    {
+      "id": "4e9f0c5c990a",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "bb169b3b4a96",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "8c554497e07a",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"195f882484c9\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"body\",\"issue\":\"correct\"},{\"id\":\"4e9f0c5c990a\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"},{\"id\":\"bb169b3b4a96\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"},{\"id\":\"8c554497e07a\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"}]}",
+  "usage": {
+    "input": 878,
+    "output": 2170,
+    "usd": 0,
+    "model": "qwen38-27b-2048-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 56.40636879997328
+}

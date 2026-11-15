@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "cb0b6695049f",
+    "e4ce4c5f64dd",
+    "c16909c58c1c",
+    "b13414526446"
+  ],
+  "rows": [
+    {
+      "id": "cb0b6695049f",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "e4ce4c5f64dd",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "missing"
+    },
+    {
+      "id": "c16909c58c1c",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "missing"
+    },
+    {
+      "id": "b13414526446",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"cb0b6695049f\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"e4ce4c5f64dd\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Register!B2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"c16909c58c1c\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:1\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"b13414526446\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1273,
+    "output": 2293,
+    "usd": 0,
+    "model": "qwen38-27b-2048-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 61.85151259996928
+}

@@ -1,0 +1,23 @@
+{
+  "ids": [
+    "99082364ca44"
+  ],
+  "rows": [
+    {
+      "id": "99082364ca44",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"99082364ca44\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 683,
+    "output": 1418,
+    "usd": 0,
+    "model": "qwen38-27b-2048-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 37.39554529986344
+}

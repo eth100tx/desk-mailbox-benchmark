@@ -1,5 +1,7 @@
 # Can a mailbox scanner connect a forwarded price to its source?
 
+[Full 95-case Qwen and Haiku comparison, plus a blind test on 32 forwarded emails](FULL-ROUND.md)
+
 A fictional supplier offer and a public market benchmark both read **$42.61**. An analyst forwards the same workbook in two different emails. Which copy should a reviewer flag, and which hidden cell supports that decision?
 
 Five systems reviewed 95 fictional email families under an explicit exercise policy. **Claude Haiku 5.5 identified all 42 controlled families, raised zero false alerts on 46 ordinary families, and identified all seven unresolved families.** On the nine hardest pairs, it got both decisions right and cited the exact source and value every time. GPT-6 Luna passed six of those nine. Nemotron 3.5 Bolt E4B, Qwen2.5 14B and the JEPA-style entrant each passed zero. This measures the decision after extraction. The benchmark supplies underlying worksheet values, recovered PDF text and OCR to every entrant.

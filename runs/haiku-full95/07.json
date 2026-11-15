@@ -1,0 +1,66 @@
+{
+  "ids": [
+    "195f882484c9",
+    "4e9f0c5c990a",
+    "bb169b3b4a96",
+    "8c554497e07a"
+  ],
+  "rows": [
+    {
+      "id": "195f882484c9",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "body",
+      "issue": "correct"
+    },
+    {
+      "id": "4e9f0c5c990a",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "bb169b3b4a96",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "8c554497e07a",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"195f882484c9\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"body\",\"issue\":\"correct\"},{\"id\":\"4e9f0c5c990a\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"},{\"id\":\"bb169b3b4a96\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"},{\"id\":\"8c554497e07a\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"}]}",
+  "usage": {
+    "input": 4919,
+    "output": 1960,
+    "usd": 0.00184029,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "billing": {
+      "claude-haiku-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 1960,
+        "cacheReadInputTokens": 649,
+        "cacheCreationInputTokens": 4268,
+        "webSearchRequests": 0,
+        "costUSD": 0.00184029,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1789,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationEphemeral1hInputTokens": 4268,
+        "canonicalModel": "claude-haiku-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    }
+  },
+  "seconds": 10.943890399998054
+}

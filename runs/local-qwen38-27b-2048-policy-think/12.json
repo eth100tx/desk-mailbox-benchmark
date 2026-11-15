@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "3d5d99d574f7",
+    "1fd692b9d397",
+    "e28eec462838",
+    "502ddd3f284d"
+  ],
+  "rows": [
+    {
+      "id": "3d5d99d574f7",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "body",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "1fd692b9d397",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "e28eec462838",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "502ddd3f284d",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"3d5d99d574f7\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"body\",\n      \"issue\": \"wrong-category\"\n    },\n    {\n      \"id\": \"1fd692b9d397\",\n      \"verdict\": \"unknown\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"unknown\"\n    },\n    {\n      \"id\": \"e28eec462838\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"502ddd3f284d\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1102,
+    "output": 2281,
+    "usd": 0,
+    "model": "qwen38-27b-2048-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 58.17875730013475
+}

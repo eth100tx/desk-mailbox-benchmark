@@ -1,0 +1,170 @@
+{
+  "rows": {
+    "0af9ad9a8cc3f7189b936774": {
+      "id": "0af9ad9a8cc3f7189b936774",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "correct"
+    },
+    "10d0061d0cfe8c79827aa1ad": {
+      "id": "10d0061d0cfe8c79827aa1ad",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    "135c68fbe08eb2101ca12385": {
+      "id": "135c68fbe08eb2101ca12385",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    "5f2ef6e5e1d8349f2c26182b": {
+      "id": "5f2ef6e5e1d8349f2c26182b",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    "70ec65646a094422d6a87dcc": {
+      "id": "70ec65646a094422d6a87dcc",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    "7395096fd8dbeb1801bf7029": {
+      "id": "7395096fd8dbeb1801bf7029",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "correct"
+    },
+    "a54063e6430648a4e91bf233": {
+      "id": "a54063e6430648a4e91bf233",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "correct"
+    },
+    "e5cf2385ba72d1aaefd95f69": {
+      "id": "e5cf2385ba72d1aaefd95f69",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  },
+  "runs": [
+    {
+      "id": "0af9ad9a8cc3f7189b936774",
+      "answer": "{\"private_record\": \"TX-22848\", \"source_unit\": \"E3\", \"booked_record\": \"TX-22848\", \"amount_unit\": \"E9\"}",
+      "usage": {
+        "completion_tokens": 44,
+        "prompt_tokens": 435,
+        "total_tokens": 479,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "10d0061d0cfe8c79827aa1ad",
+      "answer": "{\"private_record\": \"TX-63821\", \"source_unit\": \"\", \"booked_record\": \"TX-70469\", \"amount_unit\": \"\"}",
+      "usage": {
+        "completion_tokens": 39,
+        "prompt_tokens": 395,
+        "total_tokens": 434,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "135c68fbe08eb2101ca12385",
+      "answer": "{\n  \"private_record\": \"TX-42291\",\n  \"source_unit\": \"\",\n  \"booked_record\": \"TX-99889\",\n  \"amount_unit\": \"E9\"\n}",
+      "usage": {
+        "completion_tokens": 52,
+        "prompt_tokens": 412,
+        "total_tokens": 464,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "5f2ef6e5e1d8349f2c26182b",
+      "answer": "{\n  \"private_record\": \"TX-34745\",\n  \"source_unit\": \"\",\n  \"booked_record\": \"TX-62219\",\n  \"amount_unit\": \"E8\"\n}",
+      "usage": {
+        "completion_tokens": 52,
+        "prompt_tokens": 412,
+        "total_tokens": 464,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "70ec65646a094422d6a87dcc",
+      "answer": "{\n  \"private_record\": \"TX-69515\",\n  \"source_unit\": \"E2\",\n  \"booked_record\": \"TX-34056\",\n  \"amount_unit\": \"E8\"\n}",
+      "usage": {
+        "completion_tokens": 55,
+        "prompt_tokens": 412,
+        "total_tokens": 467,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "7395096fd8dbeb1801bf7029",
+      "answer": "{\n  \"private_record\": \"TX-98857\",\n  \"source_unit\": \"E4\",\n  \"booked_record\": \"TX-98857\",\n  \"amount_unit\": \"E8\"\n}",
+      "usage": {
+        "completion_tokens": 55,
+        "prompt_tokens": 435,
+        "total_tokens": 490,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "a54063e6430648a4e91bf233",
+      "answer": "{\"private_record\": \"TX-56562\", \"source_unit\": \"E3\", \"booked_record\": \"TX-56562\", \"amount_unit\": \"E9\"}",
+      "usage": {
+        "completion_tokens": 44,
+        "prompt_tokens": 435,
+        "total_tokens": 479,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "e5cf2385ba72d1aaefd95f69",
+      "answer": "{\"private_record\": \"TX-70664\", \"source_unit\": \"\", \"booked_record\": \"TX-88402\", \"amount_unit\": \"E7\"}",
+      "usage": {
+        "completion_tokens": 41,
+        "prompt_tokens": 373,
+        "total_tokens": 414,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    }
+  ],
+  "seconds": 16.06339589995332,
+  "parse_seconds": 0.10542210005223751,
+  "inference_seconds": 15.954234699951485,
+  "resolve_seconds": 0.0037390999495983124
+}

@@ -1,0 +1,66 @@
+{
+  "70ec65646a094422d6a87dcc": {
+    "scenario": "distinct_suppliers",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "135c68fbe08eb2101ca12385": {
+    "scenario": "distinct_suppliers",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "e5cf2385ba72d1aaefd95f69": {
+    "scenario": "distinct_suppliers",
+    "expected": "ordinary",
+    "reported": "ordinary",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "5f2ef6e5e1d8349f2c26182b": {
+    "scenario": "distinct_suppliers",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "0af9ad9a8cc3f7189b936774": {
+    "scenario": "distinct_suppliers",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "a54063e6430648a4e91bf233": {
+    "scenario": "distinct_suppliers",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "10d0061d0cfe8c79827aa1ad": {
+    "scenario": "distinct_suppliers",
+    "expected": "ordinary",
+    "reported": "ordinary",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "7395096fd8dbeb1801bf7029": {
+    "scenario": "distinct_suppliers",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  }
+}

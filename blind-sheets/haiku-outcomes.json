@@ -1,0 +1,194 @@
+{
+  "fd1693c29150986f9df03b9b": {
+    "scenario": "mixed_bids",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "2e2b4c95fd04da4f22338599": {
+    "scenario": "mixed_bids",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "8a01e6e94c482c1d1bc74817": {
+    "scenario": "mixed_bids",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "fa4ed4a51e3ad4fe01afdb9d": {
+    "scenario": "mixed_bids",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "c758e6f09a8ed5d4cba1b608": {
+    "scenario": "public_bids",
+    "expected": "ordinary",
+    "reported": "ordinary",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "95d8edca965b54f453cc19ff": {
+    "scenario": "public_bids",
+    "expected": "ordinary",
+    "reported": "ordinary",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "5a892977adf0e5b09c336aa4": {
+    "scenario": "public_bids",
+    "expected": "ordinary",
+    "reported": "ordinary",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "3379f8ba8e561473c4b6b32d": {
+    "scenario": "public_bids",
+    "expected": "ordinary",
+    "reported": "ordinary",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "a2fbb2c167bc08b68358afb5": {
+    "scenario": "repeat_quote",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "85bf256cb410035a2a97da8a": {
+    "scenario": "repeat_quote",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "a144a6b51158f9e924cae59a": {
+    "scenario": "repeat_quote",
+    "expected": "ordinary",
+    "reported": "ordinary",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "6d5a359b5bbfee71fadefb92": {
+    "scenario": "repeat_quote",
+    "expected": "ordinary",
+    "reported": "ordinary",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "2f1849a5187f24219d1e8be1": {
+    "scenario": "repeat_value",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "0a267eecae7f0595f7e281ae": {
+    "scenario": "repeat_value",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": false
+  },
+  "7d3f0bcc76898e3c4e0e0721": {
+    "scenario": "repeat_value",
+    "expected": "ordinary",
+    "reported": "ordinary",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "54c283386cb84271ebf05cce": {
+    "scenario": "repeat_value",
+    "expected": "ordinary",
+    "reported": "ordinary",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "6f9d61e91e6057d66aa67935": {
+    "scenario": "missing_only",
+    "expected": "unknown",
+    "reported": "unknown",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "5795cfe7ea65e05b30d1ce19": {
+    "scenario": "missing_only",
+    "expected": "unknown",
+    "reported": "unknown",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "9970ff2e55c6ce27f890e7c3": {
+    "scenario": "missing_only",
+    "expected": "unknown",
+    "reported": "unknown",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "0f53e5ca9ca14e8758f01c3c": {
+    "scenario": "missing_only",
+    "expected": "unknown",
+    "reported": "unknown",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "c460c7953a2966a5a75b01ae": {
+    "scenario": "missing_inline",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "e5633dcb54c84f5b74eda7be": {
+    "scenario": "missing_inline",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "193ef16bc41fee9248eea976": {
+    "scenario": "missing_inline",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  },
+  "512e5c96617816cd7512083f": {
+    "scenario": "missing_inline",
+    "expected": "controlled",
+    "reported": "controlled",
+    "correct": true,
+    "mark": true,
+    "exact": true
+  }
+}
