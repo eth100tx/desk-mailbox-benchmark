@@ -1,0 +1,48 @@
+{
+  "ids": [
+    "a8b4043a7196",
+    "0513fc6851ec",
+    "c51c5ceb3b71",
+    "adcee020fdcf"
+  ],
+  "rows": [
+    {
+      "id": "a8b4043a7196",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "missing"
+    },
+    {
+      "id": "0513fc6851ec",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "c51c5ceb3b71",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "adcee020fdcf",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"a8b4043a7196\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:1\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"0513fc6851ec\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"c51c5ceb3b71\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"adcee020fdcf\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1123,
+    "output": 998,
+    "usd": 0,
+    "model": "qwen38-27b-think",
+    "finish": "stop"
+  },
+  "seconds": 28.400619100080803,
+  "before_inventory_checks": {}
+}

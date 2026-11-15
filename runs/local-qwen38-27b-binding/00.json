@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "e6f720042a32",
+    "be3a158e3b3b",
+    "e8f65d5aff65",
+    "f3601b89310d",
+    "cb0b6695049f"
+  ],
+  "rows": [
+    {
+      "id": "e6f720042a32",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.pdf!page:1",
+      "issue": "missing"
+    },
+    {
+      "id": "be3a158e3b3b",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.xlsx!Register!B3",
+      "issue": "missing"
+    },
+    {
+      "id": "e8f65d5aff65",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.xlsx!Register!B2",
+      "issue": "missing"
+    },
+    {
+      "id": "f3601b89310d",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.xlsx!Register!B3",
+      "issue": "missing"
+    },
+    {
+      "id": "cb0b6695049f",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "",
+      "issue": "unknown"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"e6f720042a32\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/desk.pdf!page:1\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"be3a158e3b3b\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/desk.xlsx!Register!B3\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"e8f65d5aff65\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/desk.xlsx!Register!B2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"f3601b89310d\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/desk.xlsx!Register!B3\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"cb0b6695049f\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"\",\n      \"issue\": \"unknown\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1387,
+    "output": 332,
+    "usd": 0,
+    "model": "qwen38-27b",
+    "finish": "stop"
+  },
+  "seconds": 17.50607360014692
+}

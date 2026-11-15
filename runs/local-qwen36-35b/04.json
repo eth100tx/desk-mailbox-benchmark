@@ -1,0 +1,63 @@
+{
+  "ids": [
+    "470e165ecab4",
+    "be052447c35c",
+    "1e78f667a882",
+    "fdd5b32af9ea",
+    "195f882484c9",
+    "4e9f0c5c990a"
+  ],
+  "rows": [
+    {
+      "id": "470e165ecab4",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "be052447c35c",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.xlsx!Register!B3",
+      "issue": "correct"
+    },
+    {
+      "id": "1e78f667a882",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "fdd5b32af9ea",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "195f882484c9",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "body",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "4e9f0c5c990a",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    }
+  ],
+  "answer": "{\n\"rows\": [\n{\n\"id\": \"470e165ecab4\",\n\"verdict\": \"ordinary\",\n\"source\": \"\",\n\"value\": \"\",\n\"issue\": \"none\"\n},\n{\n\"id\": \"be052447c35c\",\n\"verdict\": \"controlled\",\n\"source\": \"body\",\n\"value\": \"a1/desk.xlsx!Register!B3\",\n\"issue\": \"correct\"\n},\n{\n\"id\": \"1e78f667a882\",\n\"verdict\": \"ordinary\",\n\"source\": \"\",\n\"value\": \"\",\n\"issue\": \"excess\"\n},\n{\n\"id\": \"fdd5b32af9ea\",\n\"verdict\": \"ordinary\",\n\"source\": \"\",\n\"value\": \"\",\n\"issue\": \"excess\"\n},\n{\n\"id\": \"195f882484c9\",\n\"verdict\": \"controlled\",\n\"source\": \"body\",\n\"value\": \"body\",\n\"issue\": \"wrong-category\"\n},\n{\n\"id\": \"4e9f0c5c990a\",\n\"verdict\": \"ordinary\",\n\"source\": \"\",\n\"value\": \"\",\n\"issue\": \"excess\"\n}\n]\n}",
+  "usage": {
+    "input": 1274,
+    "output": 296,
+    "usd": 0,
+    "model": "qwen36-35b",
+    "finish": "stop"
+  },
+  "seconds": 33.82039980008267
+}

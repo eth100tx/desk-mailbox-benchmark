@@ -1,0 +1,64 @@
+{
+  "ids": [
+    "69c47dcaa739",
+    "78cdf2eb2691",
+    "cefbde645902",
+    "bf92bda36a2d",
+    "5d149338ae45",
+    "d01d2d1d07b9"
+  ],
+  "rows": [
+    {
+      "id": "69c47dcaa739",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "78cdf2eb2691",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "cefbde645902",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "bf92bda36a2d",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "5d149338ae45",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "d01d2d1d07b9",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"69c47dcaa739\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"78cdf2eb2691\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"cefbde645902\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"bf92bda36a2d\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:1\",\n      \"issue\": \"wrong-category\"\n    },\n    {\n      \"id\": \"5d149338ae45\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"d01d2d1d07b9\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1255,
+    "output": 1108,
+    "usd": 0,
+    "model": "qwen38-27b-think",
+    "finish": "stop"
+  },
+  "seconds": 33.46422359999269,
+  "before_inventory_checks": {}
+}

@@ -1,0 +1,313 @@
+{
+  "seconds": 14.487513999920338,
+  "summary": {
+    "n": 12,
+    "valid": 12,
+    "pos": 6,
+    "tp": 0,
+    "neg": 6,
+    "fp": 0,
+    "unknown": 0,
+    "unknown_ok": 0,
+    "verdict": 6,
+    "locations": 0,
+    "mark": 6,
+    "pairs": 6,
+    "pair_verdicts": 0,
+    "pair_linked": 0
+  },
+  "outcomes": {
+    "probe-0-0": {
+      "kind": "sheet",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "a1/Rates!B8",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-0-1": {
+      "kind": "sheet",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-1-0": {
+      "kind": "sheet",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "a1/Rates!B8",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-1-1": {
+      "kind": "sheet",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-2-0": {
+      "kind": "pdf",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "a1/page:2",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-2-1": {
+      "kind": "pdf",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-3-0": {
+      "kind": "pdf",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "a1/page:2",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-3-1": {
+      "kind": "pdf",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-4-0": {
+      "kind": "inline",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "body",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-4-1": {
+      "kind": "inline",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-5-0": {
+      "kind": "inline",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "body",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-5-1": {
+      "kind": "inline",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    }
+  },
+  "answers": [
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Lot 129 now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Lot 822 within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"Record | USD\"}, {\"index\": 4, \"text\": \"Lot 822 | 17.83\"}]",
+      "answer": "{\n  \"selection\": \"none\"\n}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Ticket GA-18 now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Ticket RN-77 within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"Record | USD\"}, {\"index\": 4, \"text\": \"Ticket GA-18 | 17.83\"}]",
+      "answer": "{\n  \"selection\": \"none\"\n}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Lot 640 now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Lot 278 within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"Settlement register\"}, {\"index\": 4, \"text\": \"Lot 278   17.83 USD\"}]",
+      "answer": "{\n  \"selection\": \"none\"\n}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Delivery Red now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Delivery Blue within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"Settlement register\"}, {\"index\": 4, \"text\": \"Delivery Red   17.83 USD\"}]",
+      "answer": "{\n  \"selection\": \"none\"\n}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Lot 853 now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Lot 107 within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"The booked line is Lot 107 at USD 17.83.\"}]",
+      "answer": "{\"selection\": \"none\"}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Quote PX-9 now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Quote JH-4 within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"The booked line is Quote PX-9 at USD 17.83.\"}]",
+      "answer": "{\n  \"selection\": \"none\"\n}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Lot 822 now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Lot 129 within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"Record | USD\"}, {\"index\": 4, \"text\": \"Lot 822 | 17.83\"}]",
+      "answer": "{\n  \"selection\": \"none\"\n}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Ticket RN-77 now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Ticket GA-18 within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"Record | USD\"}, {\"index\": 4, \"text\": \"Ticket GA-18 | 17.83\"}]",
+      "answer": "{\n  \"selection\": \"none\"\n}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Lot 278 now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Lot 640 within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"Settlement register\"}, {\"index\": 4, \"text\": \"Lot 278   17.83 USD\"}]",
+      "answer": "{\"selection\": \"none\"}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Delivery Blue now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Delivery Red within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"Settlement register\"}, {\"index\": 4, \"text\": \"Delivery Red   17.83 USD\"}]",
+      "answer": "{\"selection\": \"none\"}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Lot 107 now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Lot 853 within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"The booked line is Lot 107 at USD 17.83.\"}]",
+      "answer": "{\n  \"selection\": \"none\"\n}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"For reconciliation. Only the booked record is enclosed.\"}, {\"index\": 1, \"text\": \"> We can circulate Quote JH-4 now that it appears in the exchange bulletin.\"}, {\"index\": 2, \"text\": \"> Please keep Quote PX-9 within the tender team until the submissions are opened.\"}, {\"index\": 3, \"text\": \"The booked line is Quote PX-9 at USD 17.83.\"}]",
+      "answer": "{\"selection\": \"none\"}"
+    }
+  ],
+  "usage": [
+    {
+      "completion_tokens": 13,
+      "prompt_tokens": 174,
+      "total_tokens": 187,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 13,
+      "prompt_tokens": 174,
+      "total_tokens": 187,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 13,
+      "prompt_tokens": 175,
+      "total_tokens": 188,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 13,
+      "prompt_tokens": 166,
+      "total_tokens": 179,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 8,
+      "prompt_tokens": 165,
+      "total_tokens": 173,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 13,
+      "prompt_tokens": 163,
+      "total_tokens": 176,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 13,
+      "prompt_tokens": 174,
+      "total_tokens": 187,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 13,
+      "prompt_tokens": 174,
+      "total_tokens": 187,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 8,
+      "prompt_tokens": 175,
+      "total_tokens": 183,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 8,
+      "prompt_tokens": 166,
+      "total_tokens": 174,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 13,
+      "prompt_tokens": 165,
+      "total_tokens": 178,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 8,
+      "prompt_tokens": 163,
+      "total_tokens": 171,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    }
+  ]
+}

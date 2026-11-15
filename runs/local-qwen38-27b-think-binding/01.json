@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "e4ce4c5f64dd",
+    "c16909c58c1c",
+    "b13414526446",
+    "754693ddb397"
+  ],
+  "rows": [
+    {
+      "id": "e4ce4c5f64dd",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "missing"
+    },
+    {
+      "id": "c16909c58c1c",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "missing"
+    },
+    {
+      "id": "b13414526446",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:2",
+      "issue": "missing"
+    },
+    {
+      "id": "754693ddb397",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"e4ce4c5f64dd\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Register!B2\",\"issue\":\"missing\"},{\"id\":\"c16909c58c1c\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/page:1\",\"issue\":\"missing\"},{\"id\":\"b13414526446\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/page:2\",\"issue\":\"missing\"},{\"id\":\"754693ddb397\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"}]}",
+  "usage": {
+    "input": 1128,
+    "output": 908,
+    "usd": 0,
+    "model": "qwen38-27b-think",
+    "finish": "stop"
+  },
+  "seconds": 31.12121140002273
+}

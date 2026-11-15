@@ -1,0 +1,75 @@
+{
+  "ids": [
+    "1470ddb69f8a",
+    "8b6fa1ae603b",
+    "1e39c6bbee46",
+    "254e23fa18e2",
+    "99082364ca44"
+  ],
+  "rows": [
+    {
+      "id": "1470ddb69f8a",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "8b6fa1ae603b",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "1e39c6bbee46",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "quote",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "254e23fa18e2",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:2",
+      "issue": "missing"
+    },
+    {
+      "id": "99082364ca44",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:2",
+      "issue": "correct"
+    }
+  ],
+  "usage": {
+    "input": 471,
+    "output": 55,
+    "usd": 0,
+    "model": "local-qwen38-27b-join"
+  },
+  "answers": [
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"648\": \"The supplier lodged this under seal. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"648\"\n}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"838\": \"The vendor restricted circulation to the bid desk. The other lot is a public index.\"}",
+      "answer": "{\"selection\": \"838\"}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"680\": \"The vendor restricted circulation to the bid desk. The other lot is a public index.\"}",
+      "answer": "{\"selection\": \"680\"}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"515\": \"The market desk released this index to everyone. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"515\"\n}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"871\": \"The exchange has published this benchmark. The other lot is a public index.\"}",
+      "answer": "{\"selection\": \"871\"}"
+    }
+  ],
+  "seconds": 5.013736400054768
+}

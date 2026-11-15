@@ -6,6 +6,8 @@ Five systems reviewed 95 fictional email families under an explicit exercise pol
 
 [All scores, speed, tokens and cost](RESULTS.md) · [Reproduce or enter](REPRODUCE.md) · [Raw runs](runs) · [Case-level judgments](scores)
 
+The follow-up tested larger local models, reasoning budgets and parser checks on the same 95 emails. It includes a measured CPU/GPU split and a separate confirmation set with opaque identifiers. [Local model findings](LOCAL-MODELS.md) · [Local and confirmation scores](LOCAL-RESULTS.md)
+
 ## The experiment
 
 The complete public round has 95 synthetic RFC822 emails, 42 controlled, 46 ordinary and seven unresolved. The main track has 33 matched pairs plus 11 legacy practice cases. A second track adds nine harder pairs. Of the 42 pairs, 36 have opposite verdicts. The remaining six check whether removal or an absent attachment changes what can be inferred. Public historical email is outside this release. Every native email used in these scores ships with it.

@@ -1,0 +1,75 @@
+{
+  "ids": [
+    "ec540c89b3e4",
+    "4e4d636f3f0e",
+    "82868b68ac18",
+    "2fdd5bb1b432",
+    "c40dac39f273"
+  ],
+  "rows": [
+    {
+      "id": "ec540c89b3e4",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "4e4d636f3f0e",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "82868b68ac18",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "2fdd5bb1b432",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "c40dac39f273",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "usage": {
+    "input": 1208,
+    "output": 100,
+    "usd": 0,
+    "model": "local-qwen38-27b-pointers"
+  },
+  "answers": [
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] Rebuilt from the public summary. Supersedes the last one.\nE2 [a1/page:1] Cedar Draw | Storage Services\nNovember cycle - capacity reservation summary\nPublic summary - see tariff bulletin",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] CUI//PRIVACY\nE2 [body] Please reconcile the referenced line for the morning desk.\nE3 [quote] > Forwarded source note\nE4 [quote] > Lot 401: The market desk released this index to everyone. The other lot is a public index.\nE5 [a1/page:1] \nE6 [a1/page:2] ",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] Please reconcile the referenced line for the morning desk.\nE2 [quote] > Forwarded source note\nE3 [quote] > Lot 515: The vendor restricted circulation to the bid desk. The other lot is a public index.\nE4 [a1/page:1] Lot 721    86.37 USD/MWh\nE5 [a1/page:2] Lot 515    77.89 USD/MWh",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] CUI\nE2 [body] Please reconcile the referenced line for the morning desk.\nE3 [quote] > Forwarded source note\nE4 [quote] > Lot 871: The supplier lodged this under seal. The other lot is a public index.\nE5 [a1/page:1] Lot 779    55.23 USD/MWh\nE6 [a1/page:2] Lot 871    62.86 USD/MWh",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] Please reconcile the referenced line for the morning desk.\nE2 [quote] > Forwarded source note\nE3 [quote] > Lot 605: The supplier lodged this under seal. The other lot is a public index.\nE4 [a1/page:1] \nE5 [a1/page:2] ",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    }
+  ],
+  "seconds": 6.005250999936834
+}

@@ -1,0 +1,63 @@
+{
+  "ids": [
+    "b0ebaf5ca44b",
+    "090364ef0e07",
+    "8c732fbfc0ec",
+    "a0caff74d3d3",
+    "769edfa19356",
+    "36d8fcc85145"
+  ],
+  "rows": [
+    {
+      "id": "b0ebaf5ca44b",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "090364ef0e07",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/Sheet!Register!B2",
+      "issue": "correct"
+    },
+    {
+      "id": "8c732fbfc0ec",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/page:1",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "a0caff74d3d3",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/Sheet!Inputs!B2",
+      "issue": "missing"
+    },
+    {
+      "id": "769edfa19356",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "36d8fcc85145",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"b0ebaf5ca44b\",\n      \"verdict\": \"unknown\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"unknown\"\n    },\n    {\n      \"id\": \"090364ef0e07\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/Sheet!Register!B2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"8c732fbfc0ec\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/page:1\",\n      \"issue\": \"wrong-category\"\n    },\n    {\n      \"id\": \"a0caff74d3d3\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/Sheet!Inputs!B2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"769edfa19356\",\n      \"verdict\": \"unknown\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"unknown\"\n    },\n    {\n      \"id\": \"36d8fcc85145\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1256,
+    "output": 356,
+    "usd": 0,
+    "model": "qwen36-35b",
+    "finish": "stop"
+  },
+  "seconds": 40.82987200003117
+}

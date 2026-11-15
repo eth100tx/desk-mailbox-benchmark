@@ -1,0 +1,56 @@
+{
+  "ids": [
+    "a0bb47073ce6",
+    "3d5d99d574f7",
+    "1fd692b9d397",
+    "e28eec462838",
+    "502ddd3f284d"
+  ],
+  "rows": [
+    {
+      "id": "a0bb47073ce6",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "3d5d99d574f7",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "body",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "1fd692b9d397",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "e28eec462838",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "502ddd3f284d",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"a0bb47073ce6\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"excess\"},{\"id\":\"3d5d99d574f7\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"body\",\"issue\":\"wrong-category\"},{\"id\":\"1fd692b9d397\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"},{\"id\":\"e28eec462838\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"excess\"},{\"id\":\"502ddd3f284d\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"excess\"}]}",
+  "usage": {
+    "input": 1172,
+    "output": 916,
+    "usd": 0,
+    "model": "qwen38-27b-think",
+    "finish": "stop"
+  },
+  "seconds": 30.70370849990286,
+  "before_inventory_checks": {}
+}

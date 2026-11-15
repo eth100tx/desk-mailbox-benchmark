@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "20fb93d9f352",
+    "ff349b4f1a0c",
+    "9c03954ec733",
+    "ebc66785e0b6",
+    "f9c8360e9bf0"
+  ],
+  "rows": [
+    {
+      "id": "20fb93d9f352",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "missing"
+    },
+    {
+      "id": "ff349b4f1a0c",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/paragraph:1",
+      "issue": "missing"
+    },
+    {
+      "id": "9c03954ec733",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "ebc66785e0b6",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "f9c8360e9bf0",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/paragraph:2",
+      "issue": "wrong-category"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"20fb93d9f352\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Register!B3\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"ff349b4f1a0c\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/paragraph:1\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"9c03954ec733\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"quote\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"ebc66785e0b6\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:1\",\n      \"issue\": \"wrong-category\"\n    },\n    {\n      \"id\": \"f9c8360e9bf0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/paragraph:2\",\n      \"issue\": \"wrong-category\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1243,
+    "output": 1089,
+    "usd": 0,
+    "model": "qwen38-27b-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 30.923070300137624
+}

@@ -1,0 +1,64 @@
+{
+  "ids": [
+    "292627391aa3",
+    "7e6f29e869ea",
+    "e7f1921ecb46",
+    "d71b238e7fba",
+    "16c45011915d",
+    "ac27af6d739e"
+  ],
+  "rows": [
+    {
+      "id": "292627391aa3",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:2",
+      "issue": "missing"
+    },
+    {
+      "id": "7e6f29e869ea",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "e7f1921ecb46",
+      "verdict": "controlled",
+      "source": "a1/Inputs!A2",
+      "value": "a1/Inputs!B2",
+      "issue": "missing"
+    },
+    {
+      "id": "d71b238e7fba",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "16c45011915d",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "ac27af6d739e",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"292627391aa3\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"7e6f29e869ea\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Register!B2\",\n      \"issue\": \"wrong-category\"\n    },\n    {\n      \"id\": \"e7f1921ecb46\",\n      \"verdict\": \"controlled\",\n      \"source\": \"a1/Inputs!A2\",\n      \"value\": \"a1/Inputs!B2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"d71b238e7fba\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"16c45011915d\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"ac27af6d739e\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1499,
+    "output": 1137,
+    "usd": 0,
+    "model": "qwen38-27b-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 31.351741099962965,
+  "before_inventory_checks": {}
+}

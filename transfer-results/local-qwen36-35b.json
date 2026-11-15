@@ -1,0 +1,185 @@
+{
+  "seconds": 41.200735500082374,
+  "summary": {
+    "n": 12,
+    "valid": 12,
+    "pos": 6,
+    "tp": 6,
+    "neg": 6,
+    "fp": 5,
+    "unknown": 0,
+    "unknown_ok": 0,
+    "verdict": 7,
+    "locations": 3,
+    "mark": 1,
+    "pairs": 6,
+    "pair_verdicts": 1,
+    "pair_linked": 0
+  },
+  "outcomes": {
+    "probe-0-0": {
+      "kind": "sheet",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "a1/Rates!B8",
+      "reported_value": "a1/sheet!Rates!B8",
+      "reported_source": "body"
+    },
+    "probe-0-1": {
+      "kind": "sheet",
+      "truth": "ordinary",
+      "reported": "controlled",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "",
+      "reported_value": "a1/settlements.xlsx!Rates!B8",
+      "reported_source": "a1/settlements.xlsx!Rates!A8"
+    },
+    "probe-1-0": {
+      "kind": "sheet",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "a1/Rates!B8",
+      "reported_value": "a1/settlements.xlsx!Rates!B8",
+      "reported_source": "a1/settlements.xlsx!Rates!A8"
+    },
+    "probe-1-1": {
+      "kind": "sheet",
+      "truth": "ordinary",
+      "reported": "controlled",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "",
+      "reported_value": "a1/sheet!Rates!B8",
+      "reported_source": "body"
+    },
+    "probe-2-0": {
+      "kind": "pdf",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": false,
+      "value": true,
+      "linked": false,
+      "expected_value": "a1/page:2",
+      "reported_value": "a1/page:2",
+      "reported_source": "body"
+    },
+    "probe-2-1": {
+      "kind": "pdf",
+      "truth": "ordinary",
+      "reported": "controlled",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "",
+      "reported_value": "a1/settlements.pdf!page:2",
+      "reported_source": "a1/settlements.pdf!page:2"
+    },
+    "probe-3-0": {
+      "kind": "pdf",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "a1/page:2",
+      "reported_value": "a1/settlements.pdf!page:2",
+      "reported_source": "a1/settlements.pdf!page:2"
+    },
+    "probe-3-1": {
+      "kind": "pdf",
+      "truth": "ordinary",
+      "reported": "controlled",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "",
+      "reported_value": "a1/page:2",
+      "reported_source": "body"
+    },
+    "probe-4-0": {
+      "kind": "inline",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": false,
+      "value": true,
+      "linked": false,
+      "expected_value": "body",
+      "reported_value": "body",
+      "reported_source": "body"
+    },
+    "probe-4-1": {
+      "kind": "inline",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-5-0": {
+      "kind": "inline",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": false,
+      "value": true,
+      "linked": false,
+      "expected_value": "body",
+      "reported_value": "body",
+      "reported_source": "body"
+    },
+    "probe-5-1": {
+      "kind": "inline",
+      "truth": "ordinary",
+      "reported": "controlled",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "",
+      "reported_value": "body",
+      "reported_source": "body"
+    }
+  },
+  "answers": [
+    "{\n  \"rows\": [\n    {\n      \"id\": \"probe-0-0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/sheet!Rates!B8\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"probe-1-1\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/sheet!Rates!B8\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"probe-2-0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/page:2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"probe-3-1\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/page:2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"probe-4-0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"body\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"probe-5-1\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"body\",\n      \"issue\": \"correct\"\n    }\n  ]\n}",
+    "{\n  \"rows\": [\n    {\n      \"id\": \"probe-0-1\",\n      \"verdict\": \"controlled\",\n      \"source\": \"a1/settlements.xlsx!Rates!A8\",\n      \"value\": \"a1/settlements.xlsx!Rates!B8\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"probe-1-0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"a1/settlements.xlsx!Rates!A8\",\n      \"value\": \"a1/settlements.xlsx!Rates!B8\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"probe-2-1\",\n      \"verdict\": \"controlled\",\n      \"source\": \"a1/settlements.pdf!page:2\",\n      \"value\": \"a1/settlements.pdf!page:2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"probe-3-0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"a1/settlements.pdf!page:2\",\n      \"value\": \"a1/settlements.pdf!page:2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"probe-4-1\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"probe-5-0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"body\",\n      \"issue\": \"correct\"\n    }\n  ]\n}"
+  ],
+  "usage": [
+    {
+      "input": 1058,
+      "output": 343,
+      "usd": 0,
+      "model": "qwen36-35b",
+      "finish": "stop"
+    },
+    {
+      "input": 1058,
+      "output": 391,
+      "usd": 0,
+      "model": "qwen36-35b",
+      "finish": "stop"
+    }
+  ]
+}

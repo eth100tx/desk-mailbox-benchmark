@@ -1,0 +1,56 @@
+{
+  "ids": [
+    "90d3414f133c",
+    "364f6d2db367",
+    "4ca29d539966",
+    "9d053fadd4dd",
+    "e97a29db8f39"
+  ],
+  "rows": [
+    {
+      "id": "90d3414f133c",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "364f6d2db367",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "4ca29d539966",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/paragraph:2",
+      "issue": "correct"
+    },
+    {
+      "id": "9d053fadd4dd",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "body",
+      "issue": "missing"
+    },
+    {
+      "id": "e97a29db8f39",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"90d3414f133c\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"364f6d2db367\",\n      \"verdict\": \"unknown\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"unknown\"\n    },\n    {\n      \"id\": \"4ca29d539966\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/paragraph:2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"9d053fadd4dd\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"body\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"e97a29db8f39\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1232,
+    "output": 1062,
+    "usd": 0,
+    "model": "qwen38-27b-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 29.894603400025517,
+  "before_inventory_checks": {}
+}

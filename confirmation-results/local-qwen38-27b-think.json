@@ -1,0 +1,101 @@
+{
+  "seconds": 99.3809837999288,
+  "raw": {
+    "n": 16,
+    "valid": 16,
+    "pos": 8,
+    "tp": 8,
+    "neg": 8,
+    "fp": 3,
+    "unknown": 0,
+    "unknown_ok": 0,
+    "verdict": 13,
+    "locations": 6,
+    "mark": 13,
+    "pairs": 8,
+    "pair_verdicts": 5,
+    "pair_linked": 3
+  },
+  "verified": {
+    "n": 16,
+    "valid": 16,
+    "pos": 8,
+    "tp": 8,
+    "neg": 8,
+    "fp": 3,
+    "unknown": 0,
+    "unknown_ok": 0,
+    "verdict": 13,
+    "locations": 8,
+    "mark": 13,
+    "pairs": 8,
+    "pair_verdicts": 5,
+    "pair_linked": 5
+  },
+  "runs": [
+    {
+      "ids": [
+        "adbd54225c4e6ab0",
+        "e5a641b538269061",
+        "a39fc7cb66c50492",
+        "d0e7d31d6828a1ca"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"adbd54225c4e6ab0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"body\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"e5a641b538269061\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"a39fc7cb66c50492\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"d0e7d31d6828a1ca\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Detail!F6\",\n      \"issue\": \"missing\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 825,
+        "output": 1031,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "3b130d7178302bf2",
+        "631cb0f70c36f144",
+        "3e6b39628c35b03f",
+        "0944039b5f9a3aba"
+      ],
+      "answer": "{\"rows\":[{\"id\":\"3b130d7178302bf2\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Detail!F12\",\"issue\":\"missing\"},{\"id\":\"631cb0f70c36f144\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Detail!F9\",\"issue\":\"missing\"},{\"id\":\"3e6b39628c35b03f\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"0944039b5f9a3aba\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"}]}",
+      "usage": {
+        "input": 878,
+        "output": 920,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "c9c1c881107f6315",
+        "5537a9d04038be07",
+        "5be47d223235c53a",
+        "7cabb9055ab4deb3"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"c9c1c881107f6315\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Detail!F9\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"5537a9d04038be07\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"5be47d223235c53a\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Detail!F12\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"7cabb9055ab4deb3\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 848,
+        "output": 1029,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "209fc029e7869ad3",
+        "8f5e6004e5831992",
+        "6d42b16af826c797",
+        "a67129d4c74cc455"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"209fc029e7869ad3\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/ledger.pdf page:2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"8f5e6004e5831992\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/ledger.pdf page:2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"6d42b16af826c797\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/ledger.xlsx Detail!F6\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"a67129d4c74cc455\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"body\",\n      \"issue\": \"missing\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 852,
+        "output": 1049,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    }
+  ]
+}

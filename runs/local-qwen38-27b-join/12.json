@@ -1,0 +1,75 @@
+{
+  "ids": [
+    "20fb93d9f352",
+    "ff349b4f1a0c",
+    "9c03954ec733",
+    "ebc66785e0b6",
+    "f9c8360e9bf0"
+  ],
+  "rows": [
+    {
+      "id": "20fb93d9f352",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "missing"
+    },
+    {
+      "id": "ff349b4f1a0c",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/paragraph:1",
+      "issue": "missing"
+    },
+    {
+      "id": "9c03954ec733",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "ebc66785e0b6",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "f9c8360e9bf0",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/paragraph:2",
+      "issue": "wrong-category"
+    }
+  ],
+  "usage": {
+    "input": 483,
+    "output": 44,
+    "usd": 0,
+    "model": "local-qwen38-27b-join"
+  },
+  "answers": [
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"645\": \"The vendor restricted circulation to the bid desk. The other lot is a public index.\"}",
+      "answer": "{\"selection\": \"645\"}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"285\": \"This came from the unopened tender file. The other lot is a public index.\"}",
+      "answer": "{\"selection\": \"285\"}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"See below for Thursday.\"}, {\"index\": 1, \"text\": \"> Harbr Light bid evlauation: Juniper ranks first, margin 1.6%.\"}]",
+      "answer": "{\"selection\": \"1\"}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"622\": \"This came from the unopened tender file. The other lot is a public index.\"}",
+      "answer": "{\"selection\": \"622\"}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"713\": \"The supplier lodged this under seal. The other lot is a public index.\"}",
+      "answer": "{\"selection\": \"713\"}"
+    }
+  ],
+  "seconds": 4.284668000182137
+}

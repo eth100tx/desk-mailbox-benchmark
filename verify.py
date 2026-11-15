@@ -48,8 +48,8 @@ def verify(folder,ocr):
 if __name__=="__main__":
     cli=argparse.ArgumentParser();cli.add_argument("--ocr",action="store_true");a=cli.parse_args()
     print([verify(ROOT/"data"/folder,a.ocr) for folder in ["","binding"]])
-    manifest=ROOT/"SHA256SUMS"
-    if manifest.exists():
+    for manifest in [ROOT/"SHA256SUMS",ROOT/"LOCAL-SHA256SUMS"]:
+        if not manifest.exists():continue
         for line in manifest.read_text().splitlines():
             h,name=line.split("  ",1);assert digest((ROOT/name).read_bytes())==h,name
-        print("Frozen file hashes verified")
+        print(manifest.name,"verified")

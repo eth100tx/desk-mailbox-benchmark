@@ -15,9 +15,19 @@ def clean_json(answer):
     return json.loads(match.group(1) if match else answer)["rows"]
 
 def generate(model,prompt):
-    if model in ["bolt","qwen"]:
-        if model=="bolt":
-            raw=requests.post("http://127.0.0.1:18172/v1/chat/completions",json=dict(messages=[dict(role="user",content=prompt)],temperature=0,seed=7,max_tokens=1600,cache_prompt=False,chat_template_kwargs={"enable_thinking":False},response_format={"type":"json_schema","json_schema":{"name":"results","schema":SCHEMA}}),timeout=300)
+    if model.endswith("-policy-think"):
+        prompt=("Apply these evidence conventions to each family independently. Lines beginning with > are quoted history, "
+                "even though the packet stores them inside the body string. Cite quote for a source assertion on such a line. "
+                "First inventory the delivered values and their record identifiers. For each delivered value, find the source "
+                "of that exact record. A private offer for an absent identifier does not control a different public record. "
+                "A delivered PDF with a page locator and an empty text entry has been fully inspected on this exercise track. "
+                "If no controlled value survives anywhere, report ordinary. An explicitly attached or promised file with an "
+                "empty attachment list is missing: absent affirmative value evidence, report unknown. Copy numeric evidence "
+                "locators exactly from the packet and apply the banner rule after deciding content.\n"+prompt)
+    if model in ["bolt","qwen"] or model.startswith("local-"):
+        if model!="qwen":
+            thinking=model.endswith("-think")
+            raw=requests.post("http://127.0.0.1:18172/v1/chat/completions",json=dict(messages=[dict(role="user",content=prompt)],temperature=0,seed=7,max_tokens=2600 if thinking else 1600,cache_prompt=False,chat_template_kwargs={"enable_thinking":thinking},response_format={"type":"json_schema","json_schema":{"name":"results","schema":SCHEMA}}),timeout=300)
             raw.raise_for_status(); r=raw.json()
             return r["choices"][0]["message"]["content"],dict(input=r["usage"]["prompt_tokens"],output=r["usage"]["completion_tokens"],usd=0,model=r["model"],finish=r["choices"][0]["finish_reason"])
         raw=requests.post("http://127.0.0.1:11434/api/generate",json=dict(model="qwen2.5:14b",prompt=prompt,format=SCHEMA,stream=False,options=dict(temperature=0,num_ctx=8192,num_predict=1600)),timeout=360)
@@ -45,9 +55,12 @@ def generate(model,prompt):
         return answer,dict(input=tokens,output=out,cached=cached,usd=((tokens-cached)*0.1+cached*0.01+out*0.50)/1e6,model="gpt-6-luna")
 
 def main():
-    cli=argparse.ArgumentParser(); cli.add_argument("model",choices=["bolt","qwen","haiku","luna","ema"]);cli.add_argument("--workers",type=int,default=1)
+    cli=argparse.ArgumentParser(); cli.add_argument("model");cli.add_argument("--workers",type=int,default=1)
     cli.add_argument("--binding",action="store_true")
-    args=cli.parse_args(); target=ROOT/"runs"/(args.model+("-binding" if args.binding else ""));target.mkdir(parents=True,exist_ok=True)
+    args=cli.parse_args()
+    if args.model not in {"bolt","qwen","haiku","luna","ema"} and not re.fullmatch(r"local-[a-z0-9][a-z0-9-]*",args.model):
+        cli.error("Expected an existing entrant or local-<checkpoint> for llama.cpp")
+    target=ROOT/"runs"/(args.model+("-binding" if args.binding else ""));target.mkdir(parents=True,exist_ok=True)
     data=ROOT/"data"/("binding" if args.binding else "")
     packets={p["id"]:p for p in json.loads((data/"packets.json").read_text())}
     schedule=json.loads((data/"schedule.json").read_text())

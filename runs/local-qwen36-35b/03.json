@@ -1,0 +1,63 @@
+{
+  "ids": [
+    "292627391aa3",
+    "7e6f29e869ea",
+    "e7f1921ecb46",
+    "d71b238e7fba",
+    "16c45011915d",
+    "ac27af6d739e"
+  ],
+  "rows": [
+    {
+      "id": "292627391aa3",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "7e6f29e869ea",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/Register!B2",
+      "issue": "correct"
+    },
+    {
+      "id": "e7f1921ecb46",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/Inputs!B2",
+      "issue": "missing"
+    },
+    {
+      "id": "d71b238e7fba",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "16c45011915d",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "ac27af6d739e",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"292627391aa3\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"7e6f29e869ea\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/Register!B2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"e7f1921ecb46\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/Inputs!B2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"d71b238e7fba\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"16c45011915d\",\n      \"verdict\": \"unknown\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"unknown\"\n    },\n    {\n      \"id\": \"ac27af6d739e\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1309,
+    "output": 352,
+    "usd": 0,
+    "model": "qwen36-35b",
+    "finish": "stop"
+  },
+  "seconds": 41.03587249992415
+}

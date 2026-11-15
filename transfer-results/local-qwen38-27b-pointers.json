@@ -1,0 +1,313 @@
+{
+  "seconds": 15.350881000049412,
+  "summary": {
+    "n": 12,
+    "valid": 12,
+    "pos": 6,
+    "tp": 0,
+    "neg": 6,
+    "fp": 0,
+    "unknown": 0,
+    "unknown_ok": 0,
+    "verdict": 6,
+    "locations": 0,
+    "mark": 6,
+    "pairs": 6,
+    "pair_verdicts": 0,
+    "pair_linked": 0
+  },
+  "outcomes": {
+    "probe-0-0": {
+      "kind": "sheet",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "a1/Rates!B8",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-0-1": {
+      "kind": "sheet",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-1-0": {
+      "kind": "sheet",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "a1/Rates!B8",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-1-1": {
+      "kind": "sheet",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-2-0": {
+      "kind": "pdf",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "a1/page:2",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-2-1": {
+      "kind": "pdf",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-3-0": {
+      "kind": "pdf",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "a1/page:2",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-3-1": {
+      "kind": "pdf",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-4-0": {
+      "kind": "inline",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "body",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-4-1": {
+      "kind": "inline",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-5-0": {
+      "kind": "inline",
+      "truth": "controlled",
+      "reported": "ordinary",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "body",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-5-1": {
+      "kind": "inline",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    }
+  },
+  "answers": [
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Lot 129 now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Lot 822 within the tender team until the submissions are opened.\nE4 [a1/Rates!A5] Record | USD\nE5 [a1/Rates!B8] Lot 822 | 17.83",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Ticket GA-18 now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Ticket RN-77 within the tender team until the submissions are opened.\nE4 [a1/Rates!A5] Record | USD\nE5 [a1/Rates!B8] Ticket GA-18 | 17.83",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Lot 640 now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Lot 278 within the tender team until the submissions are opened.\nE4 [a1/page:1] Settlement register\nE5 [a1/page:2] Lot 278   17.83 USD",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Delivery Red now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Delivery Blue within the tender team until the submissions are opened.\nE4 [a1/page:1] Settlement register\nE5 [a1/page:2] Delivery Red   17.83 USD",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Lot 853 now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Lot 107 within the tender team until the submissions are opened.\nE4 [body] The booked line is Lot 107 at USD 17.83.",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Quote PX-9 now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Quote JH-4 within the tender team until the submissions are opened.\nE4 [body] The booked line is Quote PX-9 at USD 17.83.",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Lot 822 now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Lot 129 within the tender team until the submissions are opened.\nE4 [a1/Rates!A5] Record | USD\nE5 [a1/Rates!B8] Lot 822 | 17.83",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Ticket RN-77 now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Ticket GA-18 within the tender team until the submissions are opened.\nE4 [a1/Rates!A5] Record | USD\nE5 [a1/Rates!B8] Ticket GA-18 | 17.83",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Lot 278 now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Lot 640 within the tender team until the submissions are opened.\nE4 [a1/page:1] Settlement register\nE5 [a1/page:2] Lot 278   17.83 USD",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Delivery Blue now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Delivery Red within the tender team until the submissions are opened.\nE4 [a1/page:1] Settlement register\nE5 [a1/page:2] Delivery Red   17.83 USD",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Lot 107 now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Lot 853 within the tender team until the submissions are opened.\nE4 [body] The booked line is Lot 107 at USD 17.83.",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] For reconciliation. Only the booked record is enclosed.\nE2 [quote] > We can circulate Quote JH-4 now that it appears in the exchange bulletin.\nE3 [quote] > Please keep Quote PX-9 within the tender team until the submissions are opened.\nE4 [body] The booked line is Quote PX-9 at USD 17.83.",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    }
+  ],
+  "usage": [
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 259,
+      "total_tokens": 279,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 259,
+      "total_tokens": 279,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 255,
+      "total_tokens": 275,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 246,
+      "total_tokens": 266,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 244,
+      "total_tokens": 264,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 242,
+      "total_tokens": 262,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 259,
+      "total_tokens": 279,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 259,
+      "total_tokens": 279,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 255,
+      "total_tokens": 275,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 246,
+      "total_tokens": 266,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 244,
+      "total_tokens": 264,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    {
+      "completion_tokens": 20,
+      "prompt_tokens": 242,
+      "total_tokens": 262,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "ids": [
+    "69c47dcaa739",
+    "78cdf2eb2691",
+    "cefbde645902",
+    "bf92bda36a2d",
+    "5d149338ae45",
+    "d01d2d1d07b9"
+  ],
+  "rows": [
+    {
+      "id": "69c47dcaa739",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "78cdf2eb2691",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/paragraph:1",
+      "issue": "missing"
+    },
+    {
+      "id": "cefbde645902",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "correct"
+    },
+    {
+      "id": "bf92bda36a2d",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "5d149338ae45",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "d01d2d1d07b9",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:2",
+      "issue": "correct"
+    }
+  ],
+  "usage": {
+    "input": 554,
+    "output": 132,
+    "usd": 0,
+    "model": "local-bolt-join"
+  },
+  "answers": [
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"867\": \"The exchange has published this benchmark. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"867\"\n}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"285\": \"This came from yesterday's open tariff bulletin. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"285\"\n}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"527\": \"The market desk released this index to everyone. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"527\"\n}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"546\": \"The supplier lodged this under seal. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"546\"\n}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"648\": \"The exchange has published this benchmark. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"648\"\n}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"829\": \"This came from yesterday's open tariff bulletin. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"829\"\n}"
+    }
+  ],
+  "seconds": 5.370778999989852
+}

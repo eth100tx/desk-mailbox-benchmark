@@ -1,0 +1,87 @@
+{
+  "ids": [
+    "4e1e902ee389",
+    "c5acbfea65ca",
+    "2402a074e861",
+    "f99a533c2c05",
+    "6bc834f97538",
+    "8424d06a8bc2"
+  ],
+  "rows": [
+    {
+      "id": "4e1e902ee389",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "c5acbfea65ca",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "2402a074e861",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "f99a533c2c05",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "6bc834f97538",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "8424d06a8bc2",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    }
+  ],
+  "usage": {
+    "input": 1619,
+    "output": 120,
+    "usd": 0,
+    "model": "local-qwen38-27b-pointers"
+  },
+  "answers": [
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] Please reconcile the referenced line for the morning desk.\nE2 [quote] > Forwarded source note\nE3 [quote] > Lot 311: The supplier lodged this under seal. The other lot is a public index.\nE4 [a1/page:1] Lot 311    36.08 USD/MWh\nE5 [a1/page:2] Lot 363    79.24 USD/MWh",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] CUI//PRIVACY\nE2 [body] Please reconcile the referenced line for the morning desk.\nE3 [quote] > Forwarded source note\nE4 [quote] > Lot 622: This came from yesterday's open tariff bulletin. The other lot is a public index.\nE5 [a1/page:1] Lot 622    57.88 USD/MWh\nE6 [a1/page:2] Lot 485    79.46 USD/MWh",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] Please reconcile the referenced line for the morning desk.\nE2 [quote] > Forwarded source note\nE3 [quote] > Lot 372: The supplier lodged this under seal. The other lot is a public index.\nE4 [a1/Summary!A1] Morning reconciliation | See source register\nE5 [a1/Register!A1] Reference | USD per MWh\nE6 [a1/Register!B2] Lot 372 | 42.61\nE7 [a1/Register!B3] Lot 883 | 55.97",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] CUI\nE2 [body] Please reconcile the referenced line for the morning desk.\nE3 [quote] > Forwarded source note\nE4 [quote] > Lot 829: This came from the unopened tender file. The other lot is a public index.\nE5 [a1/page:1] Lot 322    85.15 USD/MWh\nE6 [a1/page:2] Lot 829    87.88 USD/MWh",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] CUI\nE2 [body] Please reconcile the referenced line for the morning desk.\nE3 [quote] > Forwarded source note\nE4 [quote] > Lot 395: The market desk released this index to everyone. The other lot is a public index.\nE5 [a1/paragraph:1] Lot 544    74.39 USD/MWh\nE6 [a1/paragraph:2] Lot 395    50.06 USD/MWh",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    },
+    {
+      "prompt": "Review the WHOLE delivered family under this fictional desk policy. Find a disclosed private sealed supplier amount, unreleased storage reserve price, or internal bidder ranking/margin. An ordinary price, public benchmark, banner or statement that a private bid exists is insufficient. Match the identity in the source statement to the actual priced row. If only public rows were delivered, choose none. An absent or blank price is no disclosure. For a disclosure select the evidence ID containing the actual value, and the ID establishing its private source. They can be different, or identical for a self-contained statement. Use none for both when no controlled value is disclosed. The caller handles missing files and marking. Inspect all of the following evidence.\nE1 [body] CUI\nE2 [body] Please reconcile the referenced line for the morning desk.\nE3 [quote] > Forwarded source note\nE4 [quote] > Lot 287: This came from yesterday's open tariff bulletin. The other lot is a public index.\nE5 [quote] > Lot 287 = 41.01 / Lot 487 = 68.33",
+      "answer": "{\n  \"value\": \"none\",\n  \"source\": \"none\"\n}"
+    }
+  ],
+  "seconds": 6.812595600029454
+}

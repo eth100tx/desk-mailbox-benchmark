@@ -1,0 +1,223 @@
+{
+  "seconds": 33.919580300105736,
+  "summary": {
+    "n": 12,
+    "valid": 12,
+    "pos": 6,
+    "tp": 6,
+    "neg": 6,
+    "fp": 0,
+    "unknown": 0,
+    "unknown_ok": 0,
+    "verdict": 12,
+    "locations": 6,
+    "mark": 12,
+    "pairs": 6,
+    "pair_verdicts": 6,
+    "pair_linked": 6
+  },
+  "outcomes": {
+    "probe-0-0": {
+      "kind": "sheet",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "a1/Rates!B8",
+      "reported_value": "a1/Rates!B8",
+      "reported_source": "quote"
+    },
+    "probe-0-1": {
+      "kind": "sheet",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-1-0": {
+      "kind": "sheet",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "a1/Rates!B8",
+      "reported_value": "a1/Rates!B8",
+      "reported_source": "quote"
+    },
+    "probe-1-1": {
+      "kind": "sheet",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-2-0": {
+      "kind": "pdf",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "a1/page:2",
+      "reported_value": "a1/page:2",
+      "reported_source": "quote"
+    },
+    "probe-2-1": {
+      "kind": "pdf",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-3-0": {
+      "kind": "pdf",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "a1/page:2",
+      "reported_value": "a1/page:2",
+      "reported_source": "quote"
+    },
+    "probe-3-1": {
+      "kind": "pdf",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-4-0": {
+      "kind": "inline",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "body",
+      "reported_value": "body",
+      "reported_source": "quote"
+    },
+    "probe-4-1": {
+      "kind": "inline",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-5-0": {
+      "kind": "inline",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "body",
+      "reported_value": "body",
+      "reported_source": "quote"
+    },
+    "probe-5-1": {
+      "kind": "inline",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    }
+  },
+  "answers": [
+    "{\"rows\":[{\"id\":\"probe-0-0\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Rates!B8\",\"issue\":\"missing\"},{\"id\":\"probe-1-1\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"probe-2-0\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/page:2\",\"issue\":\"missing\"},{\"id\":\"probe-3-1\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"probe-4-0\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"body\",\"issue\":\"missing\"},{\"id\":\"probe-5-1\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"}]}",
+    "{\"rows\":[{\"id\":\"probe-0-1\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"probe-1-0\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Rates!B8\",\"issue\":\"missing\"},{\"id\":\"probe-2-1\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"probe-3-0\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/page:2\",\"issue\":\"missing\"},{\"id\":\"probe-4-1\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"probe-5-0\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"body\",\"issue\":\"missing\"}]}"
+  ],
+  "usage": [
+    {
+      "input": 5248,
+      "output": 2916,
+      "usd": 0.00238409,
+      "model": [
+        "claude-haiku-5-5"
+      ],
+      "billing": {
+        "claude-haiku-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 2916,
+          "cacheReadInputTokens": 649,
+          "cacheCreationInputTokens": 4597,
+          "webSearchRequests": 0,
+          "costUSD": 0.00238409,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 2662,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 4597,
+          "canonicalModel": "claude-haiku-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      }
+    },
+    {
+      "input": 5246,
+      "output": 3229,
+      "usd": 0.0025401900000000003,
+      "model": [
+        "claude-haiku-5-5"
+      ],
+      "billing": {
+        "claude-haiku-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 3229,
+          "cacheReadInputTokens": 649,
+          "cacheCreationInputTokens": 4595,
+          "webSearchRequests": 0,
+          "costUSD": 0.0025401900000000003,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 2975,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 4595,
+          "canonicalModel": "claude-haiku-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "388cf710f4cd",
+    "8c8c65993a56",
+    "4a32c3994258",
+    "d1c2655ef32d",
+    "799012f4f38c"
+  ],
+  "rows": [
+    {
+      "id": "388cf710f4cd",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/Register!B3",
+      "issue": "missing"
+    },
+    {
+      "id": "8c8c65993a56",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/Register!B2",
+      "issue": "missing"
+    },
+    {
+      "id": "4a32c3994258",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "d1c2655ef32d",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/Register!B3",
+      "issue": "missing"
+    },
+    {
+      "id": "799012f4f38c",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"388cf710f4cd\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/Register!B3\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"8c8c65993a56\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/Register!B2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"4a32c3994258\",\n      \"verdict\": \"unknown\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"unknown\"\n    },\n    {\n      \"id\": \"d1c2655ef32d\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/Register!B3\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"799012f4f38c\",\n      \"verdict\": \"unknown\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"unknown\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1388,
+    "output": 307,
+    "usd": 0,
+    "model": "qwen38-27b",
+    "finish": "stop"
+  },
+  "seconds": 14.177132399985567
+}

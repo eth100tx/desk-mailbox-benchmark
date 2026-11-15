@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "e4ce4c5f64dd",
+    "c16909c58c1c",
+    "b13414526446",
+    "754693ddb397"
+  ],
+  "rows": [
+    {
+      "id": "e4ce4c5f64dd",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/Sheet!B2",
+      "issue": "correct"
+    },
+    {
+      "id": "c16909c58c1c",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/page:1",
+      "issue": "correct"
+    },
+    {
+      "id": "b13414526446",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/page:2",
+      "issue": "correct"
+    },
+    {
+      "id": "754693ddb397",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/Sheet!B2",
+      "issue": "correct"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"e4ce4c5f64dd\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/Sheet!B2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"c16909c58c1c\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/page:1\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"b13414526446\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/page:2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"754693ddb397\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/Sheet!B2\",\n      \"issue\": \"correct\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1088,
+    "output": 261,
+    "usd": 0,
+    "model": "qwen36-35b",
+    "finish": "stop"
+  },
+  "seconds": 29.689402100164443
+}

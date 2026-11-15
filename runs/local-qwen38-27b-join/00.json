@@ -1,0 +1,87 @@
+{
+  "ids": [
+    "df09e39ca418",
+    "ab49ca5711f3",
+    "ed992144aff1",
+    "33855c10bed1",
+    "683e291e284a",
+    "0bf35247ef3f"
+  ],
+  "rows": [
+    {
+      "id": "df09e39ca418",
+      "verdict": "controlled",
+      "source": "a1/page:1",
+      "value": "a1/page:1",
+      "issue": "missing"
+    },
+    {
+      "id": "ab49ca5711f3",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "correct"
+    },
+    {
+      "id": "ed992144aff1",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "33855c10bed1",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "correct"
+    },
+    {
+      "id": "683e291e284a",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "missing"
+    },
+    {
+      "id": "0bf35247ef3f",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "body",
+      "issue": "correct"
+    }
+  ],
+  "usage": {
+    "input": 589,
+    "output": 61,
+    "usd": 0,
+    "model": "local-qwen38-27b-join"
+  },
+  "answers": [
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"I covered the number for the tariff mailing. Please use this copy.\"}, {\"index\": 1, \"text\": \"Cedar Draw | Storage Services\\nNovember cycle - capacity reservation summary\\nBid desk reserve floor: USD 2.18 per unit\\nPublic summary - see tariff bulletin\"}]",
+      "answer": "{\"selection\": \"1\"}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"722\": \"The exchange has published this benchmark. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"722\"\n}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"Please find the revised rates attached. Let me know if they did not come through.\"}]",
+      "answer": "{\"selection\": \"none\"}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"527\": \"The vendor restricted circulation to the bid desk. The other lot is a public index.\"}",
+      "answer": "{\"selection\": \"527\"}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"372\": \"The exchange has published this benchmark. The other lot is a public index.\"}",
+      "answer": "{\"selection\": \"372\"}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"535\": \"The exchange has published this benchmark. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"535\"\n}"
+    }
+  ],
+  "seconds": 5.797585600055754
+}

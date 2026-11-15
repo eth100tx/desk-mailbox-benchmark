@@ -1,0 +1,185 @@
+{
+  "seconds": 51.271735300077125,
+  "summary": {
+    "n": 12,
+    "valid": 12,
+    "pos": 6,
+    "tp": 5,
+    "neg": 6,
+    "fp": 1,
+    "unknown": 0,
+    "unknown_ok": 0,
+    "verdict": 9,
+    "locations": 5,
+    "mark": 9,
+    "pairs": 6,
+    "pair_verdicts": 3,
+    "pair_linked": 3
+  },
+  "outcomes": {
+    "probe-0-0": {
+      "kind": "sheet",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "a1/Rates!B8",
+      "reported_value": "a1/Rates!B8",
+      "reported_source": "quote"
+    },
+    "probe-0-1": {
+      "kind": "sheet",
+      "truth": "ordinary",
+      "reported": "controlled",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "",
+      "reported_value": "a1/Rates!B8",
+      "reported_source": "quote"
+    },
+    "probe-1-0": {
+      "kind": "sheet",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "a1/Rates!B8",
+      "reported_value": "a1/Rates!B8",
+      "reported_source": "quote"
+    },
+    "probe-1-1": {
+      "kind": "sheet",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-2-0": {
+      "kind": "pdf",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "a1/page:2",
+      "reported_value": "a1/page:2",
+      "reported_source": "quote"
+    },
+    "probe-2-1": {
+      "kind": "pdf",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-3-0": {
+      "kind": "pdf",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "a1/page:2",
+      "reported_value": "a1/page:2",
+      "reported_source": "quote"
+    },
+    "probe-3-1": {
+      "kind": "pdf",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-4-0": {
+      "kind": "inline",
+      "truth": "controlled",
+      "reported": "controlled",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": false,
+      "expected_value": "body",
+      "reported_value": "body",
+      "reported_source": "body"
+    },
+    "probe-4-1": {
+      "kind": "inline",
+      "truth": "ordinary",
+      "reported": "unknown",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-5-0": {
+      "kind": "inline",
+      "truth": "controlled",
+      "reported": "unknown",
+      "correct": false,
+      "mark": false,
+      "value": false,
+      "linked": false,
+      "expected_value": "body",
+      "reported_value": "",
+      "reported_source": ""
+    },
+    "probe-5-1": {
+      "kind": "inline",
+      "truth": "ordinary",
+      "reported": "ordinary",
+      "correct": true,
+      "mark": true,
+      "value": true,
+      "linked": true,
+      "expected_value": "",
+      "reported_value": "",
+      "reported_source": ""
+    }
+  },
+  "answers": [
+    "{\n  \"rows\": [\n    {\n      \"id\": \"probe-0-0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Rates!B8\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"probe-1-1\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"probe-2-0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"probe-3-1\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"probe-4-0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"body\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"probe-5-1\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+    "{\"rows\":[{\"id\":\"probe-0-1\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Rates!B8\",\"issue\":\"missing\"},{\"id\":\"probe-1-0\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Rates!B8\",\"issue\":\"missing\"},{\"id\":\"probe-2-1\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"probe-3-0\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/page:2\",\"issue\":\"missing\"},{\"id\":\"probe-4-1\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"},{\"id\":\"probe-5-0\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"}]}"
+  ],
+  "usage": [
+    {
+      "input": 1248,
+      "output": 1087,
+      "usd": 0,
+      "model": "qwen38-27b-policy-think",
+      "finish": "stop"
+    },
+    {
+      "input": 1248,
+      "output": 929,
+      "usd": 0,
+      "model": "qwen38-27b-policy-think",
+      "finish": "stop"
+    }
+  ]
+}

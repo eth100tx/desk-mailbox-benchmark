@@ -1,0 +1,87 @@
+{
+  "ids": [
+    "bb169b3b4a96",
+    "8c554497e07a",
+    "c32c6d83bb83",
+    "eb5489613e4e",
+    "55aecfd1e540",
+    "2b4ef174031b"
+  ],
+  "rows": [
+    {
+      "id": "bb169b3b4a96",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "8c554497e07a",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "c32c6d83bb83",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "body",
+      "issue": "missing"
+    },
+    {
+      "id": "eb5489613e4e",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "missing"
+    },
+    {
+      "id": "55aecfd1e540",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "body",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "2b4ef174031b",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    }
+  ],
+  "usage": {
+    "input": 559,
+    "output": 130,
+    "usd": 0,
+    "model": "local-bolt-join"
+  },
+  "answers": [
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"534\": \"The vendor restricted circulation to the bid desk. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"534\"\n}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"882\": \"The supplier lodged this under seal. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"882\"\n}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"842\": \"The market desk released this index to everyone. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"842\"\n}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"552\": \"This came from the unopened tender file. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"552\"\n}"
+    },
+    {
+      "prompt": "Select the SINGLE evidence item that actually discloses a sealed vendor bid amount, internal storage reserve floor, or private bidder ranking or margin. Select none for public data, cover notes, banners, or a reference without the actual value. [{\"index\": 0, \"text\": \"CUI // PRIVACY\"}, {\"index\": 1, \"text\": \"Cedar Draw bid desk reserve floor: USD 2.21 per unit.\"}]",
+      "answer": "{\n  \"selection\": \"1\"\n}"
+    },
+    {
+      "prompt": "Which listed lot, if any, has a source that is a private supplier tender under the exercise policy? An unpublished offer or a vendor's circulation restriction qualifies. A public index does not. Choose the private lot even when its amount was not supplied; the caller separately inspects the delivered values. {\"401\": \"The vendor restricted circulation to the bid desk. The other lot is a public index.\"}",
+      "answer": "{\n  \"selection\": \"401\"\n}"
+    }
+  ],
+  "seconds": 5.174620999954641
+}
