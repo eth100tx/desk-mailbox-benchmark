@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "90d3414f133c",
+    "364f6d2db367",
+    "4ca29d539966",
+    "9d053fadd4dd",
+    "e97a29db8f39"
+  ],
+  "rows": [
+    {
+      "id": "90d3414f133c",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.docx!paragraph:2",
+      "issue": "correct"
+    },
+    {
+      "id": "364f6d2db367",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "4ca29d539966",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.docx!paragraph:2",
+      "issue": "correct"
+    },
+    {
+      "id": "9d053fadd4dd",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "e97a29db8f39",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.xlsx!Register:A3:B3",
+      "issue": "correct"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"90d3414f133c\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"a1/desk.docx!paragraph:2\",\"issue\":\"correct\"},{\"id\":\"364f6d2db367\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"4ca29d539966\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"a1/desk.docx!paragraph:2\",\"issue\":\"correct\"},{\"id\":\"9d053fadd4dd\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"e97a29db8f39\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"a1/desk.xlsx!Register:A3:B3\",\"issue\":\"correct\"}]}",
+  "usage": {
+    "input": 1056,
+    "output": 179,
+    "usd": 0,
+    "model": "qwen2.5:14b",
+    "decode_ns": 3811786300
+  },
+  "seconds": 4.04462830000557
+}

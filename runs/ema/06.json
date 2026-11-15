@@ -1,0 +1,63 @@
+{
+  "ids": [
+    "b0ebaf5ca44b",
+    "090364ef0e07",
+    "8c732fbfc0ec",
+    "a0caff74d3d3",
+    "769edfa19356",
+    "36d8fcc85145"
+  ],
+  "rows": [
+    {
+      "id": "b0ebaf5ca44b",
+      "verdict": "controlled",
+      "source": "",
+      "value": "a1/page:2",
+      "issue": "missing"
+    },
+    {
+      "id": "090364ef0e07",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "8c732fbfc0ec",
+      "verdict": "controlled",
+      "source": "",
+      "value": "body",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "a0caff74d3d3",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "769edfa19356",
+      "verdict": "controlled",
+      "source": "",
+      "value": "body",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "36d8fcc85145",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\"rows\": [{\"id\": \"b0ebaf5ca44b\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"a1/page:2\", \"issue\": \"missing\"}, {\"id\": \"090364ef0e07\", \"verdict\": \"ordinary\", \"source\": \"\", \"value\": \"\", \"issue\": \"none\"}, {\"id\": \"8c732fbfc0ec\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"body\", \"issue\": \"wrong-category\"}, {\"id\": \"a0caff74d3d3\", \"verdict\": \"ordinary\", \"source\": \"\", \"value\": \"\", \"issue\": \"none\"}, {\"id\": \"769edfa19356\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"body\", \"issue\": \"wrong-category\"}, {\"id\": \"36d8fcc85145\", \"verdict\": \"ordinary\", \"source\": \"\", \"value\": \"\", \"issue\": \"none\"}]}",
+  "usage": {
+    "input": null,
+    "output": null,
+    "usd": 0,
+    "model": "ema",
+    "fit_s": 1.385784100042656
+  },
+  "seconds": 0.00717250001616776
+}

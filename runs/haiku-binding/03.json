@@ -1,0 +1,66 @@
+{
+  "ids": [
+    "a8b4043a7196",
+    "0513fc6851ec",
+    "c51c5ceb3b71",
+    "adcee020fdcf"
+  ],
+  "rows": [
+    {
+      "id": "a8b4043a7196",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "missing"
+    },
+    {
+      "id": "0513fc6851ec",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "c51c5ceb3b71",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "adcee020fdcf",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"a8b4043a7196\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/page:1\",\"issue\":\"missing\"},{\"id\":\"0513fc6851ec\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"c51c5ceb3b71\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"adcee020fdcf\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"}]}",
+  "usage": {
+    "input": 5213,
+    "output": 1496,
+    "usd": 0.00166709,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "billing": {
+      "claude-haiku-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 1496,
+        "cacheReadInputTokens": 649,
+        "cacheCreationInputTokens": 4562,
+        "webSearchRequests": 0,
+        "costUSD": 0.00166709,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1320,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationEphemeral1hInputTokens": 4562,
+        "canonicalModel": "claude-haiku-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    }
+  },
+  "seconds": 9.30444570002146
+}

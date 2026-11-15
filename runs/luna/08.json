@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "a0bb47073ce6",
+    "3d5d99d574f7",
+    "1fd692b9d397",
+    "e28eec462838",
+    "502ddd3f284d"
+  ],
+  "rows": [
+    {
+      "id": "a0bb47073ce6",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "3d5d99d574f7",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "body",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "1fd692b9d397",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "e28eec462838",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "502ddd3f284d",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"a0bb47073ce6\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"excess\"},{\"id\":\"3d5d99d574f7\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"body\",\"issue\":\"wrong-category\"},{\"id\":\"1fd692b9d397\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"},{\"id\":\"e28eec462838\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"excess\"},{\"id\":\"502ddd3f284d\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"excess\"}]}",
+  "usage": {
+    "input": 15870,
+    "output": 132,
+    "cached": 11776,
+    "usd": 0.0005931600000000001,
+    "model": "gpt-6-luna"
+  },
+  "seconds": 6.9562205001711845
+}

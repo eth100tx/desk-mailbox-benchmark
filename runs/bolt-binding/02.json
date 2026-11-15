@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "388cf710f4cd",
+    "8c8c65993a56",
+    "4a32c3994258",
+    "d1c2655ef32d",
+    "799012f4f38c"
+  ],
+  "rows": [
+    {
+      "id": "388cf710f4cd",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.xlsx!Register!B3",
+      "issue": "correct"
+    },
+    {
+      "id": "8c8c65993a56",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.xlsx!Register!B2",
+      "issue": "correct"
+    },
+    {
+      "id": "4a32c3994258",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.pdf!page:1",
+      "issue": "correct"
+    },
+    {
+      "id": "d1c2655ef32d",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.xlsx!Register!B3",
+      "issue": "correct"
+    },
+    {
+      "id": "799012f4f38c",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.xlsx!Register!B2",
+      "issue": "correct"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"388cf710f4cd\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/desk.xlsx!Register!B3\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"8c8c65993a56\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/desk.xlsx!Register!B2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"4a32c3994258\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/desk.pdf!page:1\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"d1c2655ef32d\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/desk.xlsx!Register!B3\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"799012f4f38c\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/desk.xlsx!Register!B2\",\n      \"issue\": \"correct\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1416,
+    "output": 354,
+    "usd": 0,
+    "model": "../work/nano/Nemotron-3.5-Bolt-E4B-Q4_K_M.gguf",
+    "finish": "stop"
+  },
+  "seconds": 6.776076899841428
+}

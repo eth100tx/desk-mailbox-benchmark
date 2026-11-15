@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "388cf710f4cd",
+    "8c8c65993a56",
+    "4a32c3994258",
+    "d1c2655ef32d",
+    "799012f4f38c"
+  ],
+  "rows": [
+    {
+      "id": "388cf710f4cd",
+      "verdict": "controlled",
+      "source": "",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "8c8c65993a56",
+      "verdict": "controlled",
+      "source": "",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "4a32c3994258",
+      "verdict": "controlled",
+      "source": "",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "d1c2655ef32d",
+      "verdict": "controlled",
+      "source": "",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "799012f4f38c",
+      "verdict": "controlled",
+      "source": "",
+      "value": "quote",
+      "issue": "missing"
+    }
+  ],
+  "answer": "{\"rows\": [{\"id\": \"388cf710f4cd\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"quote\", \"issue\": \"missing\"}, {\"id\": \"8c8c65993a56\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"quote\", \"issue\": \"missing\"}, {\"id\": \"4a32c3994258\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"quote\", \"issue\": \"missing\"}, {\"id\": \"d1c2655ef32d\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"quote\", \"issue\": \"missing\"}, {\"id\": \"799012f4f38c\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"quote\", \"issue\": \"missing\"}]}",
+  "usage": {
+    "input": null,
+    "output": null,
+    "usd": 0,
+    "model": "ema",
+    "fit_s": 0.9695471001323313
+  },
+  "seconds": 0.00866559986025095
+}

@@ -1,0 +1,63 @@
+{
+  "ids": [
+    "b0ebaf5ca44b",
+    "090364ef0e07",
+    "8c732fbfc0ec",
+    "a0caff74d3d3",
+    "769edfa19356",
+    "36d8fcc85145"
+  ],
+  "rows": [
+    {
+      "id": "b0ebaf5ca44b",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.pdf!page:1",
+      "issue": "correct"
+    },
+    {
+      "id": "090364ef0e07",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a2/desk.xlsx!Register!B2",
+      "issue": "correct"
+    },
+    {
+      "id": "8c732fbfc0ec",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/desk.pdf!page:1",
+      "issue": "correct"
+    },
+    {
+      "id": "a0caff74d3d3",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/Nov rates.xlsx!Inputs!B2",
+      "issue": "correct"
+    },
+    {
+      "id": "769edfa19356",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "",
+      "issue": "missing"
+    },
+    {
+      "id": "36d8fcc85145",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "a1/desk.pdf!page:2",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"b0ebaf5ca44b\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/desk.pdf!page:1\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"090364ef0e07\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a2/desk.xlsx!Register!B2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"8c732fbfc0ec\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/desk.pdf!page:1\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"a0caff74d3d3\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"a1/Nov rates.xlsx!Inputs!B2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"769edfa19356\",\n      \"verdict\": \"controlled\",\n      \"source\": \"body\",\n      \"value\": \"\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"36d8fcc85145\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"a1/desk.pdf!page:2\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1289,
+    "output": 398,
+    "usd": 0,
+    "model": "../work/nano/Nemotron-3.5-Bolt-E4B-Q4_K_M.gguf",
+    "finish": "stop"
+  },
+  "seconds": 9.728274900000542
+}

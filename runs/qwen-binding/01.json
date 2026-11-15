@@ -1,0 +1,75 @@
+{
+  "ids": [
+    "e4ce4c5f64dd",
+    "c16909c58c1c",
+    "b13414526446",
+    "754693ddb397"
+  ],
+  "rows": [
+    {
+      "id": "e4ce4c5f64dd",
+      "verdict": "controlled",
+      "source": "a1/Register!A2",
+      "value": "a1/Register!B2",
+      "issue": "correct"
+    },
+    {
+      "id": "e4ce4c5f64dd",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "c16909c58c1c",
+      "verdict": "controlled",
+      "source": "a1/page:1",
+      "value": "a1/page:1",
+      "issue": "correct"
+    },
+    {
+      "id": "c16909c58c1c",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "b13414526446",
+      "verdict": "controlled",
+      "source": "a1/page:1",
+      "value": "a1/page:1",
+      "issue": "correct"
+    },
+    {
+      "id": "b13414526446",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "754693ddb397",
+      "verdict": "controlled",
+      "source": "a1/Register!A2",
+      "value": "a1/Register!B2",
+      "issue": "correct"
+    },
+    {
+      "id": "754693ddb397",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"e4ce4c5f64dd\",\"verdict\":\"controlled\",\"source\":\"a1/Register!A2\",\"value\":\"a1/Register!B2\",\"issue\":\"correct\"},{\"id\":\"e4ce4c5f64dd\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"c16909c58c1c\",\"verdict\":\"controlled\",\"source\":\"a1/page:1\",\"value\":\"a1/page:1\",\"issue\":\"correct\"},{\"id\":\"c16909c58c1c\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"b13414526446\",\"verdict\":\"controlled\",\"source\":\"a1/page:1\",\"value\":\"a1/page:1\",\"issue\":\"correct\"},{\"id\":\"b13414526446\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"},{\"id\":\"754693ddb397\",\"verdict\":\"controlled\",\"source\":\"a1/Register!A2\",\"value\":\"a1/Register!B2\",\"issue\":\"correct\"},{\"id\":\"754693ddb397\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"}]}",
+  "usage": {
+    "input": 1102,
+    "output": 273,
+    "usd": 0,
+    "model": "qwen2.5:14b",
+    "decode_ns": 5228604500
+  },
+  "seconds": 5.459900999907404
+}

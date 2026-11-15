@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "4e8a529f11bb",
+    "75474eeae8e7",
+    "a5fc04d776e9",
+    "840f3b13d77d",
+    "fab083dec804"
+  ],
+  "rows": [
+    {
+      "id": "4e8a529f11bb",
+      "verdict": "controlled",
+      "source": "",
+      "value": "body",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "75474eeae8e7",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "a5fc04d776e9",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "840f3b13d77d",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "fab083dec804",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\"rows\": [{\"id\": \"4e8a529f11bb\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"body\", \"issue\": \"wrong-category\"}, {\"id\": \"75474eeae8e7\", \"verdict\": \"ordinary\", \"source\": \"\", \"value\": \"\", \"issue\": \"none\"}, {\"id\": \"a5fc04d776e9\", \"verdict\": \"ordinary\", \"source\": \"\", \"value\": \"\", \"issue\": \"none\"}, {\"id\": \"840f3b13d77d\", \"verdict\": \"ordinary\", \"source\": \"\", \"value\": \"\", \"issue\": \"none\"}, {\"id\": \"fab083dec804\", \"verdict\": \"ordinary\", \"source\": \"\", \"value\": \"\", \"issue\": \"none\"}]}",
+  "usage": {
+    "input": null,
+    "output": null,
+    "usd": 0,
+    "model": "ema",
+    "fit_s": 1.385784100042656
+  },
+  "seconds": 0.007608399959281087
+}

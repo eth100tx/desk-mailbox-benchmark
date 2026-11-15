@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "388cf710f4cd",
+    "8c8c65993a56",
+    "4a32c3994258",
+    "d1c2655ef32d",
+    "799012f4f38c"
+  ],
+  "rows": [
+    {
+      "id": "388cf710f4cd",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "missing"
+    },
+    {
+      "id": "8c8c65993a56",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "missing"
+    },
+    {
+      "id": "4a32c3994258",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "d1c2655ef32d",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "missing"
+    },
+    {
+      "id": "799012f4f38c",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"388cf710f4cd\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Register!B3\",\"issue\":\"missing\"},{\"id\":\"8c8c65993a56\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Register!B2\",\"issue\":\"missing\"},{\"id\":\"4a32c3994258\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"},{\"id\":\"d1c2655ef32d\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Register!B3\",\"issue\":\"missing\"},{\"id\":\"799012f4f38c\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"}]}",
+  "usage": {
+    "input": 17507,
+    "output": 152,
+    "cached": 11776,
+    "usd": 0.0007668600000000001,
+    "model": "gpt-6-luna"
+  },
+  "seconds": 7.539809999987483
+}

@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "90d3414f133c",
+    "364f6d2db367",
+    "4ca29d539966",
+    "9d053fadd4dd",
+    "e97a29db8f39"
+  ],
+  "rows": [
+    {
+      "id": "90d3414f133c",
+      "verdict": "controlled",
+      "source": "",
+      "value": "body",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "364f6d2db367",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "4ca29d539966",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "9d053fadd4dd",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "e97a29db8f39",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\"rows\": [{\"id\": \"90d3414f133c\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"body\", \"issue\": \"wrong-category\"}, {\"id\": \"364f6d2db367\", \"verdict\": \"unknown\", \"source\": \"\", \"value\": \"\", \"issue\": \"unknown\"}, {\"id\": \"4ca29d539966\", \"verdict\": \"ordinary\", \"source\": \"\", \"value\": \"\", \"issue\": \"none\"}, {\"id\": \"9d053fadd4dd\", \"verdict\": \"ordinary\", \"source\": \"\", \"value\": \"\", \"issue\": \"none\"}, {\"id\": \"e97a29db8f39\", \"verdict\": \"ordinary\", \"source\": \"\", \"value\": \"\", \"issue\": \"none\"}]}",
+  "usage": {
+    "input": null,
+    "output": null,
+    "usd": 0,
+    "model": "ema",
+    "fit_s": 1.385784100042656
+  },
+  "seconds": 0.009101900039240718
+}

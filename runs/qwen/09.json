@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "ec540c89b3e4",
+    "4e4d636f3f0e",
+    "82868b68ac18",
+    "2fdd5bb1b432",
+    "c40dac39f273"
+  ],
+  "rows": [
+    {
+      "id": "ec540c89b3e4",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "4e4d636f3f0e",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/page:2",
+      "issue": "correct"
+    },
+    {
+      "id": "82868b68ac18",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/page:2",
+      "issue": "correct"
+    },
+    {
+      "id": "2fdd5bb1b432",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/page:2",
+      "issue": "correct"
+    },
+    {
+      "id": "c40dac39f273",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "",
+      "issue": "missing"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"ec540c89b3e4\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"4e4d636f3f0e\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"a1/page:2\",\"issue\":\"correct\"},{\"id\":\"82868b68ac18\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"a1/page:2\",\"issue\":\"correct\"},{\"id\":\"2fdd5bb1b432\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"a1/page:2\",\"issue\":\"correct\"},{\"id\":\"c40dac39f273\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"\",\"issue\":\"missing\"}]}",
+  "usage": {
+    "input": 940,
+    "output": 165,
+    "usd": 0,
+    "model": "qwen2.5:14b",
+    "decode_ns": 3631801200
+  },
+  "seconds": 3.9224278999026865
+}

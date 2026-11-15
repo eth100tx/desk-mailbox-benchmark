@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "6751e2330724",
+    "93207d8400a2",
+    "8e49b4f162de",
+    "3cc64e548758",
+    "576d315add4f"
+  ],
+  "rows": [
+    {
+      "id": "6751e2330724",
+      "verdict": "controlled",
+      "source": "",
+      "value": "body",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "93207d8400a2",
+      "verdict": "controlled",
+      "source": "",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "8e49b4f162de",
+      "verdict": "controlled",
+      "source": "",
+      "value": "a1/page:2",
+      "issue": "missing"
+    },
+    {
+      "id": "3cc64e548758",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "576d315add4f",
+      "verdict": "controlled",
+      "source": "",
+      "value": "quote",
+      "issue": "missing"
+    }
+  ],
+  "answer": "{\"rows\": [{\"id\": \"6751e2330724\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"body\", \"issue\": \"wrong-category\"}, {\"id\": \"93207d8400a2\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"quote\", \"issue\": \"missing\"}, {\"id\": \"8e49b4f162de\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"a1/page:2\", \"issue\": \"missing\"}, {\"id\": \"3cc64e548758\", \"verdict\": \"ordinary\", \"source\": \"\", \"value\": \"\", \"issue\": \"none\"}, {\"id\": \"576d315add4f\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"quote\", \"issue\": \"missing\"}]}",
+  "usage": {
+    "input": null,
+    "output": null,
+    "usd": 0,
+    "model": "ema",
+    "fit_s": 1.385784100042656
+  },
+  "seconds": 0.010237100068479776
+}

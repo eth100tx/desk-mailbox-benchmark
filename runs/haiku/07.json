@@ -1,0 +1,74 @@
+{
+  "ids": [
+    "4e8a529f11bb",
+    "75474eeae8e7",
+    "a5fc04d776e9",
+    "840f3b13d77d",
+    "fab083dec804"
+  ],
+  "rows": [
+    {
+      "id": "4e8a529f11bb",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "75474eeae8e7",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "a5fc04d776e9",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "840f3b13d77d",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "fab083dec804",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "quote",
+      "issue": "correct"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"4e8a529f11bb\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"excess\"},{\"id\":\"75474eeae8e7\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"a5fc04d776e9\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"840f3b13d77d\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"fab083dec804\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"quote\",\"issue\":\"correct\"}]}",
+  "usage": {
+    "input": 5371,
+    "output": 2005,
+    "usd": 0.00195319,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "billing": {
+      "claude-haiku-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 2005,
+        "cacheReadInputTokens": 649,
+        "cacheCreationInputTokens": 4720,
+        "webSearchRequests": 0,
+        "costUSD": 0.00195319,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1795,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationEphemeral1hInputTokens": 4720,
+        "canonicalModel": "claude-haiku-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    }
+  },
+  "seconds": 11.57050669984892
+}

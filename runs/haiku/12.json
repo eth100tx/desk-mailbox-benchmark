@@ -1,0 +1,74 @@
+{
+  "ids": [
+    "20fb93d9f352",
+    "ff349b4f1a0c",
+    "9c03954ec733",
+    "ebc66785e0b6",
+    "f9c8360e9bf0"
+  ],
+  "rows": [
+    {
+      "id": "20fb93d9f352",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "missing"
+    },
+    {
+      "id": "ff349b4f1a0c",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/paragraph:1",
+      "issue": "missing"
+    },
+    {
+      "id": "9c03954ec733",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "ebc66785e0b6",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "f9c8360e9bf0",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/paragraph:2",
+      "issue": "wrong-category"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"20fb93d9f352\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Register!B3\",\"issue\":\"missing\"},{\"id\":\"ff349b4f1a0c\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/paragraph:1\",\"issue\":\"missing\"},{\"id\":\"9c03954ec733\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"quote\",\"issue\":\"missing\"},{\"id\":\"ebc66785e0b6\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/page:1\",\"issue\":\"wrong-category\"},{\"id\":\"f9c8360e9bf0\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/paragraph:2\",\"issue\":\"wrong-category\"}]}",
+  "usage": {
+    "input": 5184,
+    "output": 1884,
+    "usd": 0.0018552899999999999,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "billing": {
+      "claude-haiku-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 1884,
+        "cacheReadInputTokens": 649,
+        "cacheCreationInputTokens": 4533,
+        "webSearchRequests": 0,
+        "costUSD": 0.0018552899999999999,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 1625,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationEphemeral1hInputTokens": 4533,
+        "canonicalModel": "claude-haiku-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    }
+  },
+  "seconds": 10.863867199979722
+}

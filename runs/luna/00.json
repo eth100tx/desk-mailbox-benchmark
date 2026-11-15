@@ -1,0 +1,63 @@
+{
+  "ids": [
+    "df09e39ca418",
+    "ab49ca5711f3",
+    "ed992144aff1",
+    "33855c10bed1",
+    "683e291e284a",
+    "0bf35247ef3f"
+  ],
+  "rows": [
+    {
+      "id": "df09e39ca418",
+      "verdict": "controlled",
+      "source": "a1/page:1",
+      "value": "a1/page:1",
+      "issue": "missing"
+    },
+    {
+      "id": "ab49ca5711f3",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "ed992144aff1",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    },
+    {
+      "id": "33855c10bed1",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "correct"
+    },
+    {
+      "id": "683e291e284a",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "0bf35247ef3f",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"df09e39ca418\",\"verdict\":\"controlled\",\"source\":\"a1/page:1\",\"value\":\"a1/page:1\",\"issue\":\"missing\"},{\"id\":\"ab49ca5711f3\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"excess\"},{\"id\":\"ed992144aff1\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"},{\"id\":\"33855c10bed1\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/page:1\",\"issue\":\"correct\"},{\"id\":\"683e291e284a\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"0bf35247ef3f\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"excess\"}]}",
+  "usage": {
+    "input": 17314,
+    "output": 164,
+    "cached": 14464,
+    "usd": 0.00051164,
+    "model": "gpt-6-luna"
+  },
+  "seconds": 9.484136499930173
+}

@@ -1,0 +1,82 @@
+{
+  "ids": [
+    "470e165ecab4",
+    "be052447c35c",
+    "1e78f667a882",
+    "fdd5b32af9ea",
+    "195f882484c9",
+    "4e9f0c5c990a"
+  ],
+  "rows": [
+    {
+      "id": "470e165ecab4",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "be052447c35c",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "correct"
+    },
+    {
+      "id": "1e78f667a882",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "fdd5b32af9ea",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "195f882484c9",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "body",
+      "issue": "correct"
+    },
+    {
+      "id": "4e9f0c5c990a",
+      "verdict": "unknown",
+      "source": "",
+      "value": "",
+      "issue": "unknown"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"470e165ecab4\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"be052447c35c\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/Register!B3\",\"issue\":\"correct\"},{\"id\":\"1e78f667a882\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"excess\"},{\"id\":\"fdd5b32af9ea\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"excess\"},{\"id\":\"195f882484c9\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"body\",\"issue\":\"correct\"},{\"id\":\"4e9f0c5c990a\",\"verdict\":\"unknown\",\"source\":\"\",\"value\":\"\",\"issue\":\"unknown\"}]}",
+  "usage": {
+    "input": 5544,
+    "output": 2525,
+    "usd": 0.00224779,
+    "model": [
+      "claude-haiku-5-5"
+    ],
+    "billing": {
+      "claude-haiku-5-5": {
+        "inputTokens": 2,
+        "outputTokens": 2525,
+        "cacheReadInputTokens": 649,
+        "cacheCreationInputTokens": 4893,
+        "webSearchRequests": 0,
+        "costUSD": 0.00224779,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 128000,
+        "thinkingTokens": 2268,
+        "cacheCreationEphemeral5mInputTokens": 0,
+        "cacheCreationEphemeral1hInputTokens": 4893,
+        "canonicalModel": "claude-haiku-5-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    }
+  },
+  "seconds": 13.225908300140873
+}

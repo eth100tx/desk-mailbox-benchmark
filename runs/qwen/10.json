@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "6751e2330724",
+    "93207d8400a2",
+    "8e49b4f162de",
+    "3cc64e548758",
+    "576d315add4f"
+  ],
+  "rows": [
+    {
+      "id": "6751e2330724",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "Lot 488 = 44.85",
+      "issue": "correct"
+    },
+    {
+      "id": "93207d8400a2",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "Lot 867 = 56.62",
+      "issue": "correct"
+    },
+    {
+      "id": "8e49b4f162de",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "3cc64e548758",
+      "verdict": "controlled",
+      "source": "a1/desk.xlsx!Register!B3",
+      "value": "Lot 883 = 39.7",
+      "issue": "correct"
+    },
+    {
+      "id": "576d315add4f",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "Lot 535 = 43.73",
+      "issue": "wrong-category"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"6751e2330724\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"Lot 488 = 44.85\",\"issue\":\"correct\"},{\"id\":\"93207d8400a2\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"Lot 867 = 56.62\",\"issue\":\"correct\"},{\"id\":\"8e49b4f162de\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"3cc64e548758\",\"verdict\":\"controlled\",\"source\":\"a1/desk.xlsx!Register!B3\",\"value\":\"Lot 883 = 39.7\",\"issue\":\"correct\"},{\"id\":\"576d315add4f\",\"verdict\":\"controlled\",\"source\":\"body\",\"value\":\"Lot 535 = 43.73\",\"issue\":\"wrong-category\"}]}",
+  "usage": {
+    "input": 1017,
+    "output": 210,
+    "usd": 0,
+    "model": "qwen2.5:14b",
+    "decode_ns": 4425280200
+  },
+  "seconds": 4.717504700180143
+}

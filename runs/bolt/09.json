@@ -1,0 +1,55 @@
+{
+  "ids": [
+    "ec540c89b3e4",
+    "4e4d636f3f0e",
+    "82868b68ac18",
+    "2fdd5bb1b432",
+    "c40dac39f273"
+  ],
+  "rows": [
+    {
+      "id": "ec540c89b3e4",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "4e4d636f3f0e",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "82868b68ac18",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/page:2",
+      "issue": "correct"
+    },
+    {
+      "id": "2fdd5bb1b432",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "a1/page:2",
+      "issue": "correct"
+    },
+    {
+      "id": "c40dac39f273",
+      "verdict": "controlled",
+      "source": "body",
+      "value": "",
+      "issue": "correct"
+    }
+  ],
+  "answer": "{\n\"rows\": [\n{\n\"id\": \"ec540c89b3e4\",\n\"verdict\": \"ordinary\",\n\"source\": \"\",\n\"value\": \"\",\n\"issue\": \"none\"\n},\n{\n\"id\": \"4e4d636f3f0e\",\n\"verdict\": \"ordinary\",\n\"source\": \"\",\n\"value\": \"\",\n\"issue\": \"none\"\n},\n{\n\"id\": \"82868b68ac18\",\n\"verdict\": \"controlled\",\n\"source\": \"body\",\n\"value\": \"a1/page:2\",\n\"issue\": \"correct\"\n},\n{\n\"id\": \"2fdd5bb1b432\",\n\"verdict\": \"controlled\",\n\"source\": \"body\",\n\"value\": \"a1/page:2\",\n\"issue\": \"correct\"\n},\n{\n\"id\": \"c40dac39f273\",\n\"verdict\": \"controlled\",\n\"source\": \"body\",\n\"value\": \"\",\n\"issue\": \"correct\"\n}\n]\n}",
+  "usage": {
+    "input": 950,
+    "output": 265,
+    "usd": 0,
+    "model": "../work/nano/Nemotron-3.5-Bolt-E4B-Q4_K_M.gguf",
+    "finish": "stop"
+  },
+  "seconds": 6.370474099880084
+}

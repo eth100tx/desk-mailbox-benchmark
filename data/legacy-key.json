@@ -1,0 +1,101 @@
+{
+  "195f882484c9": {
+    "kind": "legacy",
+    "pair": null,
+    "side": null,
+    "verdict": "controlled",
+    "source": null,
+    "value": "body",
+    "issue": "correct"
+  },
+  "55aecfd1e540": {
+    "kind": "legacy",
+    "pair": null,
+    "side": null,
+    "verdict": "controlled",
+    "source": null,
+    "value": "body",
+    "issue": "wrong-category"
+  },
+  "840f3b13d77d": {
+    "kind": "legacy",
+    "pair": null,
+    "side": null,
+    "verdict": "ordinary",
+    "source": null,
+    "value": "",
+    "issue": "none"
+  },
+  "9c03954ec733": {
+    "kind": "legacy",
+    "pair": null,
+    "side": null,
+    "verdict": "controlled",
+    "source": null,
+    "value": "quote",
+    "issue": "missing"
+  },
+  "a0caff74d3d3": {
+    "kind": "legacy",
+    "pair": null,
+    "side": null,
+    "verdict": "controlled",
+    "source": null,
+    "value": "a1/Inputs!B2",
+    "issue": "missing"
+  },
+  "a5fc04d776e9": {
+    "kind": "legacy",
+    "pair": null,
+    "side": null,
+    "verdict": "ordinary",
+    "source": null,
+    "value": "",
+    "issue": "none"
+  },
+  "df09e39ca418": {
+    "kind": "legacy",
+    "pair": null,
+    "side": null,
+    "verdict": "controlled",
+    "source": null,
+    "value": "a1/page:1",
+    "issue": "missing"
+  },
+  "e7f1921ecb46": {
+    "kind": "legacy",
+    "pair": null,
+    "side": null,
+    "verdict": "controlled",
+    "source": null,
+    "value": "a1/Inputs!B2",
+    "issue": "missing"
+  },
+  "ec540c89b3e4": {
+    "kind": "legacy",
+    "pair": null,
+    "side": null,
+    "verdict": "ordinary",
+    "source": null,
+    "value": "",
+    "issue": "none"
+  },
+  "ed992144aff1": {
+    "kind": "legacy",
+    "pair": null,
+    "side": null,
+    "verdict": "unknown",
+    "source": null,
+    "value": "",
+    "issue": "unknown"
+  },
+  "fdd5b32af9ea": {
+    "kind": "legacy",
+    "pair": null,
+    "side": null,
+    "verdict": "ordinary",
+    "source": null,
+    "value": "",
+    "issue": "excess"
+  }
+}

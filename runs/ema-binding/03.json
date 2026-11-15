@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "a8b4043a7196",
+    "0513fc6851ec",
+    "c51c5ceb3b71",
+    "adcee020fdcf"
+  ],
+  "rows": [
+    {
+      "id": "a8b4043a7196",
+      "verdict": "controlled",
+      "source": "",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "0513fc6851ec",
+      "verdict": "controlled",
+      "source": "",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "c51c5ceb3b71",
+      "verdict": "controlled",
+      "source": "",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "adcee020fdcf",
+      "verdict": "controlled",
+      "source": "",
+      "value": "quote",
+      "issue": "missing"
+    }
+  ],
+  "answer": "{\"rows\": [{\"id\": \"a8b4043a7196\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"quote\", \"issue\": \"missing\"}, {\"id\": \"0513fc6851ec\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"quote\", \"issue\": \"missing\"}, {\"id\": \"c51c5ceb3b71\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"quote\", \"issue\": \"missing\"}, {\"id\": \"adcee020fdcf\", \"verdict\": \"controlled\", \"source\": \"\", \"value\": \"quote\", \"issue\": \"missing\"}]}",
+  "usage": {
+    "input": null,
+    "output": null,
+    "usd": 0,
+    "model": "ema",
+    "fit_s": 0.9695471001323313
+  },
+  "seconds": 0.006754700094461441
+}

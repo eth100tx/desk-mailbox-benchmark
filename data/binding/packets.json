@@ -1,0 +1,746 @@
+[
+  {
+    "id": "0513fc6851ec",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 534: source is a sealed supplier bid.\r\n> Lot 896: source is the public benchmark.\r\n> Lot 517: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 517"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "51.16"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 896"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "42.61"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "388cf710f4cd",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 627: source is the public benchmark.\r\n> Lot 575: source is a sealed supplier bid.\r\n> Lot 229: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 229"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "51.16"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 575"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "42.61"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4a32c3994258",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 577: source is a sealed supplier bid.\r\n> Lot 919: source is the public benchmark.\r\n> Lot 131: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 919    42.61 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 131    51.16 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "754693ddb397",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 575: source is the public benchmark.\r\n> Lot 627: source is a sealed supplier bid.\r\n> Lot 229: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 229"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "51.16"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 575"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "42.61"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "799012f4f38c",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 419: source is a sealed supplier bid.\r\n> Lot 115: source is the public benchmark.\r\n> Lot 524: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 115"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "42.61"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 524"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "51.16"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8c8c65993a56",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 732: source is the public benchmark.\r\n> Lot 835: source is a sealed supplier bid.\r\n> Lot 699: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 835"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "42.61"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 699"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "51.16"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a8b4043a7196",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 343: source is the public benchmark.\r\n> Lot 285: source is a sealed supplier bid.\r\n> Lot 545: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 285    42.61 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 545    51.16 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "adcee020fdcf",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 671: source is a sealed supplier bid.\r\n> Lot 484: source is the public benchmark.\r\n> Lot 496: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 484    42.61 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 496    51.16 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b13414526446",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 285: source is the public benchmark.\r\n> Lot 343: source is a sealed supplier bid.\r\n> Lot 545: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 285    42.61 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 545    51.16 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "be3a158e3b3b",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 447: source is the public benchmark.\r\n> Lot 617: source is a sealed supplier bid.\r\n> Lot 997: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 997"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "51.16"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 447"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "42.61"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c16909c58c1c",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 484: source is a sealed supplier bid.\r\n> Lot 671: source is the public benchmark.\r\n> Lot 496: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 484    42.61 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 496    51.16 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c51c5ceb3b71",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 245: source is a sealed supplier bid.\r\n> Lot 199: source is the public benchmark.\r\n> Lot 637: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 199"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "42.61"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 637"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "51.16"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cb0b6695049f",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 835: source is the public benchmark.\r\n> Lot 732: source is a sealed supplier bid.\r\n> Lot 699: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 835"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "42.61"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 699"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "51.16"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d1c2655ef32d",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 617: source is the public benchmark.\r\n> Lot 447: source is a sealed supplier bid.\r\n> Lot 997: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 997"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "51.16"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 447"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "42.61"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e4ce4c5f64dd",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 115: source is a sealed supplier bid.\r\n> Lot 419: source is the public benchmark.\r\n> Lot 524: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 115"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "42.61"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 524"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "51.16"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e6f720042a32",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 919: source is a sealed supplier bid.\r\n> Lot 577: source is the public benchmark.\r\n> Lot 131: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 919    42.61 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 131    51.16 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e8f65d5aff65",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 199: source is a sealed supplier bid.\r\n> Lot 245: source is the public benchmark.\r\n> Lot 637: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 199"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "42.61"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 637"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "51.16"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f3601b89310d",
+    "subject": "FW: booked lots",
+    "body": "Forwarding the two entries actually booked.\r\n\r\n> Lot 896: source is a sealed supplier bid.\r\n> Lot 534: source is the public benchmark.\r\n> Lot 517: source is the public benchmark.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 517"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "51.16"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 896"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "42.61"
+          ]
+        ]
+      }
+    ]
+  }
+]

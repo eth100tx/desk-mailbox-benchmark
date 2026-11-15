@@ -1,0 +1,1996 @@
+[
+  {
+    "id": "090364ef0e07",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 703: The vendor restricted circulation to the bid desk. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "visible",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "visible",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "visible",
+            "Lot 703"
+          ],
+          [
+            "Register!B2",
+            "visible",
+            "36.07"
+          ],
+          [
+            "Register!A3",
+            "visible",
+            "Lot 645"
+          ],
+          [
+            "Register!B3",
+            "visible",
+            "54.89"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "0bf35247ef3f",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 535: The exchange has published this benchmark. The other lot is a public index.\r\n\r\nLot 535 = 43.73 / Lot 891 = 58.92",
+    "attachments": []
+  },
+  {
+    "id": "1470ddb69f8a",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 648: The supplier lodged this under seal. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "visible",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "visible",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "visible",
+            "Lot 648"
+          ],
+          [
+            "Register!B2",
+            "visible",
+            "53.56"
+          ],
+          [
+            "Register!A3",
+            "visible",
+            "Lot 784"
+          ],
+          [
+            "Register!B3",
+            "visible",
+            "33.46"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "16c45011915d",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 805: This came from yesterday's open tariff bulletin. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            ""
+          ],
+          [
+            "page:2",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "195f882484c9",
+    "subject": "Harbor Light / swing block",
+    "body": "CUI\r\nHarbor Light bid desk evaluation: bidder Juniper ranked first, margin 1.6%.",
+    "attachments": []
+  },
+  {
+    "id": "1e39c6bbee46",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 680: The vendor restricted circulation to the bid desk. The other lot is a public index.\r\n> Lot 587 = 84.93 / Lot 680 = 82.63",
+    "attachments": []
+  },
+  {
+    "id": "1e78f667a882",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 680: The market desk released this index to everyone. The other lot is a public index.\r\n> Lot 587 = 84.93 / Lot 680 = 82.63",
+    "attachments": []
+  },
+  {
+    "id": "1fd692b9d397",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 534: The market desk released this index to everyone. The other lot is a public index.\r\nThe register is attached.",
+    "attachments": []
+  },
+  {
+    "id": "20fb93d9f352",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 645: The vendor restricted circulation to the bid desk. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 594"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "49.26"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 645"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "64.29"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2402a074e861",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 372: The supplier lodged this under seal. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 372"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "42.61"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 883"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "55.97"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "254e23fa18e2",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 515: The market desk released this index to everyone. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 721    86.37 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 515    77.89 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "292627391aa3",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 361: This came from the unopened tender file. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 802\n44.08 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 361\n82.33 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2b4ef174031b",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 401: The vendor restricted circulation to the bid desk. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            ""
+          ],
+          [
+            "page:2",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2fdd5bb1b432",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 871: The supplier lodged this under seal. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 779    55.23 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 871    62.86 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "33855c10bed1",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 527: The vendor restricted circulation to the bid desk. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 527\n40.71 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 786\n65.62 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "364f6d2db367",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 882: The exchange has published this benchmark. The other lot is a public index.\r\nThe register is attached.",
+    "attachments": []
+  },
+  {
+    "id": "36d8fcc85145",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 361: This came from yesterday's open tariff bulletin. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 802\n44.08 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 361\n82.33 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3cc64e548758",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 883: This came from the unopened tender file. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 261"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "76.28"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 883"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "39.7"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3d5d99d574f7",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 488: This came from the unopened tender file. The other lot is a public index.\r\n\r\nLot 688 = 49.47 / Lot 488 = 44.85",
+    "attachments": []
+  },
+  {
+    "id": "470e165ecab4",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 552: This came from yesterday's open tariff bulletin. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "visible",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "visible",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "visible",
+            "Lot 819"
+          ],
+          [
+            "Register!B2",
+            "visible",
+            "34.17"
+          ],
+          [
+            "Register!A3",
+            "visible",
+            "Lot 552"
+          ],
+          [
+            "Register!B3",
+            "visible",
+            "36.32"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4ca29d539966",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 395: The vendor restricted circulation to the bid desk. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.docx",
+        "entries": [
+          [
+            "paragraph:1",
+            "Lot 544    74.39 USD/MWh"
+          ],
+          [
+            "paragraph:2",
+            "Lot 395    50.06 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4e1e902ee389",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 311: The supplier lodged this under seal. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 311    36.08 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 363    79.24 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4e4d636f3f0e",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 401: The market desk released this index to everyone. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            ""
+          ],
+          [
+            "page:2",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4e8a529f11bb",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 838: The market desk released this index to everyone. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 838"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "49.75"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 758"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "63.89"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4e9f0c5c990a",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 675: This came from yesterday's open tariff bulletin. The other lot is a public index.\r\nThe register is attached.",
+    "attachments": []
+  },
+  {
+    "id": "502ddd3f284d",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 703: The market desk released this index to everyone. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "visible",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "visible",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "visible",
+            "Lot 703"
+          ],
+          [
+            "Register!B2",
+            "visible",
+            "36.07"
+          ],
+          [
+            "Register!A3",
+            "visible",
+            "Lot 645"
+          ],
+          [
+            "Register!B3",
+            "visible",
+            "54.89"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "55aecfd1e540",
+    "subject": "Cedar Draw refresh",
+    "body": "CUI // PRIVACY\r\nCedar Draw bid desk reserve floor: USD 2.21 per unit.",
+    "attachments": []
+  },
+  {
+    "id": "576d315add4f",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 535: The supplier lodged this under seal. The other lot is a public index.\r\n\r\nLot 535 = 43.73 / Lot 891 = 58.92",
+    "attachments": []
+  },
+  {
+    "id": "5d149338ae45",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 648: The exchange has published this benchmark. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "visible",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "visible",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "visible",
+            "Lot 648"
+          ],
+          [
+            "Register!B2",
+            "visible",
+            "53.56"
+          ],
+          [
+            "Register!A3",
+            "visible",
+            "Lot 784"
+          ],
+          [
+            "Register!B3",
+            "visible",
+            "33.46"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6751e2330724",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 488: This came from yesterday's open tariff bulletin. The other lot is a public index.\r\n\r\nLot 688 = 49.47 / Lot 488 = 44.85",
+    "attachments": []
+  },
+  {
+    "id": "683e291e284a",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 372: The exchange has published this benchmark. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 372"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "42.61"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 883"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "55.97"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "69c47dcaa739",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 867: The exchange has published this benchmark. The other lot is a public index.\r\n> Lot 731 = 67.69 / Lot 867 = 56.62",
+    "attachments": []
+  },
+  {
+    "id": "6bc834f97538",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 395: The market desk released this index to everyone. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.docx",
+        "entries": [
+          [
+            "paragraph:1",
+            "Lot 544    74.39 USD/MWh"
+          ],
+          [
+            "paragraph:2",
+            "Lot 395    50.06 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "75474eeae8e7",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 645: The market desk released this index to everyone. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 594"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "49.26"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 645"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "64.29"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "769edfa19356",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 675: This came from the unopened tender file. The other lot is a public index.\r\nThe register is attached.",
+    "attachments": []
+  },
+  {
+    "id": "78cdf2eb2691",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 285: This came from yesterday's open tariff bulletin. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.docx",
+        "entries": [
+          [
+            "paragraph:1",
+            "Lot 285    68.47 USD/MWh"
+          ],
+          [
+            "paragraph:2",
+            "Lot 695    39.77 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7e6f29e869ea",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 446: This came from the unopened tender file. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 446"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "48.56"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 218"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "37.43"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "82868b68ac18",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 515: The vendor restricted circulation to the bid desk. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 721    86.37 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 515    77.89 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "840f3b13d77d",
+    "subject": "RE: Gulf desk / November strip",
+    "body": "Use the bulletin version for the public packet.",
+    "attachments": [
+      {
+        "filename": "Nov rates.xlsx",
+        "entries": [
+          [
+            "Daily!A1",
+            "visible",
+            "Gulf desk"
+          ],
+          [
+            "Daily!B1",
+            "visible",
+            "Weekly comparison"
+          ],
+          [
+            "Daily!A2",
+            "visible",
+            "Delivery month"
+          ],
+          [
+            "Daily!B2",
+            "visible",
+            "November"
+          ],
+          [
+            "Daily!A3",
+            "visible",
+            "Index basis"
+          ],
+          [
+            "Daily!B3",
+            "visible",
+            "Published Gulf index"
+          ],
+          [
+            "Inputs!A1",
+            "hidden",
+            "Source"
+          ],
+          [
+            "Inputs!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Inputs!A2",
+            "hidden",
+            "Mesa Bend | published index | bulletin"
+          ],
+          [
+            "Inputs!B2",
+            "hidden",
+            "37.25"
+          ],
+          [
+            "Inputs!A3",
+            "hidden",
+            "Delivery"
+          ],
+          [
+            "Inputs!B3",
+            "hidden",
+            "November"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8424d06a8bc2",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 287: This came from yesterday's open tariff bulletin. The other lot is a public index.\r\n> Lot 287 = 41.01 / Lot 487 = 68.33",
+    "attachments": []
+  },
+  {
+    "id": "8b6fa1ae603b",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 838: The vendor restricted circulation to the bid desk. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 838"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "49.75"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 758"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "63.89"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8c554497e07a",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 882: The supplier lodged this under seal. The other lot is a public index.\r\nThe register is attached.",
+    "attachments": []
+  },
+  {
+    "id": "8c732fbfc0ec",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 325: The vendor restricted circulation to the bid desk. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 325    72.29 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 767    71.09 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8e49b4f162de",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 605: The exchange has published this benchmark. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            ""
+          ],
+          [
+            "page:2",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "90d3414f133c",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 713: The exchange has published this benchmark. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.docx",
+        "entries": [
+          [
+            "paragraph:1",
+            "Lot 896    44.71 USD/MWh"
+          ],
+          [
+            "paragraph:2",
+            "Lot 713    70.90 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "93207d8400a2",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 867: The supplier lodged this under seal. The other lot is a public index.\r\n> Lot 731 = 67.69 / Lot 867 = 56.62",
+    "attachments": []
+  },
+  {
+    "id": "99082364ca44",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 871: The exchange has published this benchmark. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 779    55.23 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 871    62.86 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9c03954ec733",
+    "subject": "FW: Harbor Light / swing block",
+    "body": "See below for Thursday.\r\n\r\n> Harbr Light bid evlauation: Juniper ranks first, margin 1.6%.",
+    "attachments": []
+  },
+  {
+    "id": "9d053fadd4dd",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 842: The vendor restricted circulation to the bid desk. The other lot is a public index.\r\n\r\nLot 842 = 86.55 / Lot 403 = 80.10",
+    "attachments": []
+  },
+  {
+    "id": "a0bb47073ce6",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 446: This came from yesterday's open tariff bulletin. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 446"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "48.56"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 218"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "37.43"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a0caff74d3d3",
+    "subject": "Gulf desk / November strip",
+    "body": "Morning - attached the rates for the call.",
+    "attachments": [
+      {
+        "filename": "Nov rates.xlsx",
+        "entries": [
+          [
+            "Daily!A1",
+            "visible",
+            "Gulf desk"
+          ],
+          [
+            "Daily!B1",
+            "visible",
+            "Weekly comparison"
+          ],
+          [
+            "Daily!A2",
+            "visible",
+            "Delivery month"
+          ],
+          [
+            "Daily!B2",
+            "visible",
+            "November"
+          ],
+          [
+            "Daily!A3",
+            "visible",
+            "Index basis"
+          ],
+          [
+            "Daily!B3",
+            "visible",
+            "Published Gulf index"
+          ],
+          [
+            "Inputs!A1",
+            "hidden",
+            "Source"
+          ],
+          [
+            "Inputs!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Inputs!A2",
+            "hidden",
+            "Mesa Bend | sealed offer | bid desk"
+          ],
+          [
+            "Inputs!B2",
+            "hidden",
+            "38.75"
+          ],
+          [
+            "Inputs!A3",
+            "hidden",
+            "Delivery"
+          ],
+          [
+            "Inputs!B3",
+            "hidden",
+            "November"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a5fc04d776e9",
+    "subject": "Harbor Light meeting",
+    "body": "CUI training is at 11. Public session agenda only.",
+    "attachments": []
+  },
+  {
+    "id": "ab49ca5711f3",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 722: The exchange has published this benchmark. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 571"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "39.15"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 722"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "84.08"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ac27af6d739e",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 311: The exchange has published this benchmark. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 311    36.08 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 363    79.24 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b0ebaf5ca44b",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 805: This came from the unopened tender file. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            ""
+          ],
+          [
+            "page:2",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bb169b3b4a96",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 534: The vendor restricted circulation to the bid desk. The other lot is a public index.\r\nThe register is attached.",
+    "attachments": []
+  },
+  {
+    "id": "be052447c35c",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 722: The supplier lodged this under seal. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "veryHidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "veryHidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "veryHidden",
+            "Lot 571"
+          ],
+          [
+            "Register!B2",
+            "veryHidden",
+            "39.15"
+          ],
+          [
+            "Register!A3",
+            "veryHidden",
+            "Lot 722"
+          ],
+          [
+            "Register!B3",
+            "veryHidden",
+            "84.08"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bf92bda36a2d",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 546: The supplier lodged this under seal. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 546\n51.56 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 348\n47.23 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c32c6d83bb83",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 842: The market desk released this index to everyone. The other lot is a public index.\r\n\r\nLot 842 = 86.55 / Lot 403 = 80.10",
+    "attachments": []
+  },
+  {
+    "id": "c40dac39f273",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 605: The supplier lodged this under seal. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            ""
+          ],
+          [
+            "page:2",
+            ""
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "c5acbfea65ca",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 622: This came from yesterday's open tariff bulletin. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 622    57.88 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 485    79.46 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cefbde645902",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 527: The market desk released this index to everyone. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 527\n40.71 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 786\n65.62 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d01d2d1d07b9",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 829: This came from yesterday's open tariff bulletin. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 322    85.15 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 829    87.88 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d71b238e7fba",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 546: The exchange has published this benchmark. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 546\n51.56 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 348\n47.23 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "df09e39ca418",
+    "subject": "Cedar Draw / storage notice",
+    "body": "I covered the number for the tariff mailing. Please use this copy.",
+    "attachments": [
+      {
+        "filename": "storage notice.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Cedar Draw | Storage Services\nNovember cycle - capacity reservation summary\nBid desk reserve floor: USD 2.18 per unit\nPublic summary - see tariff bulletin"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e28eec462838",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 325: The market desk released this index to everyone. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 325    72.29 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 767    71.09 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e7f1921ecb46",
+    "subject": "FW: Gulf desk / November strip",
+    "body": "Latest copy for scheduling. I renamed the file.",
+    "attachments": [
+      {
+        "filename": "November schedule.xlsx",
+        "entries": [
+          [
+            "Daily!A1",
+            "visible",
+            "Gulf desk"
+          ],
+          [
+            "Daily!B1",
+            "visible",
+            "Weekly comparison"
+          ],
+          [
+            "Daily!A2",
+            "visible",
+            "Delivery month"
+          ],
+          [
+            "Daily!B2",
+            "visible",
+            "November"
+          ],
+          [
+            "Daily!A3",
+            "visible",
+            "Index basis"
+          ],
+          [
+            "Daily!B3",
+            "visible",
+            "Published Gulf index"
+          ],
+          [
+            "Inputs!A1",
+            "hidden",
+            "Source"
+          ],
+          [
+            "Inputs!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Inputs!A2",
+            "hidden",
+            "Mesa Bend | sealed offer | bid desk"
+          ],
+          [
+            "Inputs!B2",
+            "hidden",
+            "38.75"
+          ],
+          [
+            "Inputs!A3",
+            "hidden",
+            "Delivery"
+          ],
+          [
+            "Inputs!B3",
+            "hidden",
+            "November"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "e97a29db8f39",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 883: This came from yesterday's open tariff bulletin. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "hidden",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "hidden",
+            "Lot 261"
+          ],
+          [
+            "Register!B2",
+            "hidden",
+            "76.28"
+          ],
+          [
+            "Register!A3",
+            "hidden",
+            "Lot 883"
+          ],
+          [
+            "Register!B3",
+            "hidden",
+            "39.7"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eb5489613e4e",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 552: This came from the unopened tender file. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.xlsx",
+        "entries": [
+          [
+            "Summary!A1",
+            "visible",
+            "Morning reconciliation"
+          ],
+          [
+            "Summary!B1",
+            "visible",
+            "See source register"
+          ],
+          [
+            "Register!A1",
+            "visible",
+            "Reference"
+          ],
+          [
+            "Register!B1",
+            "visible",
+            "USD per MWh"
+          ],
+          [
+            "Register!A2",
+            "visible",
+            "Lot 819"
+          ],
+          [
+            "Register!B2",
+            "visible",
+            "34.17"
+          ],
+          [
+            "Register!A3",
+            "visible",
+            "Lot 552"
+          ],
+          [
+            "Register!B3",
+            "visible",
+            "36.32"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ebc66785e0b6",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 622: This came from the unopened tender file. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 622    57.88 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 485    79.46 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ec540c89b3e4",
+    "subject": "RE: Cedar Draw / storage notice",
+    "body": "Rebuilt from the public summary. Supersedes the last one.",
+    "attachments": [
+      {
+        "filename": "storage notice.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Cedar Draw | Storage Services\nNovember cycle - capacity reservation summary\nPublic summary - see tariff bulletin"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ed992144aff1",
+    "subject": "Mesa Bend revised offer",
+    "body": "Please find the revised rates attached. Let me know if they did not come through.",
+    "attachments": []
+  },
+  {
+    "id": "f99a533c2c05",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 829: This came from the unopened tender file. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.pdf",
+        "entries": [
+          [
+            "page:1",
+            "Lot 322    85.15 USD/MWh"
+          ],
+          [
+            "page:2",
+            "Lot 829    87.88 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f9c8360e9bf0",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI//PRIVACY\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 713: The supplier lodged this under seal. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.docx",
+        "entries": [
+          [
+            "paragraph:1",
+            "Lot 896    44.71 USD/MWh"
+          ],
+          [
+            "paragraph:2",
+            "Lot 713    70.90 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fab083dec804",
+    "subject": "FW: morning reconciliation",
+    "body": "CUI\r\nPlease reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 287: This came from the unopened tender file. The other lot is a public index.\r\n> Lot 287 = 41.01 / Lot 487 = 68.33",
+    "attachments": []
+  },
+  {
+    "id": "fdd5b32af9ea",
+    "subject": "November strip",
+    "body": "CUI\r\nMesa Bend published bulletin only. Please check the inherited header.",
+    "attachments": [
+      {
+        "filename": "Nov rates.xlsx",
+        "entries": [
+          [
+            "Daily!A1",
+            "visible",
+            "Gulf desk"
+          ],
+          [
+            "Daily!B1",
+            "visible",
+            "Weekly comparison"
+          ],
+          [
+            "Daily!A2",
+            "visible",
+            "Delivery month"
+          ],
+          [
+            "Daily!B2",
+            "visible",
+            "November"
+          ],
+          [
+            "Daily!A3",
+            "visible",
+            "Index basis"
+          ],
+          [
+            "Daily!B3",
+            "visible",
+            "Published Gulf index"
+          ],
+          [
+            "Inputs!A1",
+            "hidden",
+            "Source"
+          ],
+          [
+            "Inputs!B1",
+            "hidden",
+            "USD per MWh"
+          ],
+          [
+            "Inputs!A2",
+            "hidden",
+            "Mesa Bend | published index | bulletin"
+          ],
+          [
+            "Inputs!B2",
+            "hidden",
+            "37.25"
+          ],
+          [
+            "Inputs!A3",
+            "hidden",
+            "Delivery"
+          ],
+          [
+            "Inputs!B3",
+            "hidden",
+            "November"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ff349b4f1a0c",
+    "subject": "FW: morning reconciliation",
+    "body": "Please reconcile the referenced line for the morning desk.\r\n\r\n> Forwarded source note\r\n> Lot 285: This came from the unopened tender file. The other lot is a public index.",
+    "attachments": [
+      {
+        "filename": "desk.docx",
+        "entries": [
+          [
+            "paragraph:1",
+            "Lot 285    68.47 USD/MWh"
+          ],
+          [
+            "paragraph:2",
+            "Lot 695    39.77 USD/MWh"
+          ]
+        ]
+      }
+    ]
+  }
+]

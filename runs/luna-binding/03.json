@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "a8b4043a7196",
+    "0513fc6851ec",
+    "c51c5ceb3b71",
+    "adcee020fdcf"
+  ],
+  "rows": [
+    {
+      "id": "a8b4043a7196",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "missing"
+    },
+    {
+      "id": "0513fc6851ec",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "c51c5ceb3b71",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "adcee020fdcf",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\"rows\":[{\"id\":\"a8b4043a7196\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/page:1\",\"issue\":\"missing\"},{\"id\":\"0513fc6851ec\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"c51c5ceb3b71\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"},{\"id\":\"adcee020fdcf\",\"verdict\":\"ordinary\",\"source\":\"\",\"value\":\"\",\"issue\":\"none\"}]}",
+  "usage": {
+    "input": 15812,
+    "output": 108,
+    "cached": 11776,
+    "usd": 0.00057536,
+    "model": "gpt-6-luna"
+  },
+  "seconds": 5.4483054000884295
+}
