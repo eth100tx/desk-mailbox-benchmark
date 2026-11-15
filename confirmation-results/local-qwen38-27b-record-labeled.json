@@ -1,0 +1,343 @@
+{
+  "seconds": 22.884040199918672,
+  "raw": {
+    "n": 16,
+    "valid": 16,
+    "pos": 8,
+    "tp": 1,
+    "neg": 8,
+    "fp": 0,
+    "unknown": 0,
+    "unknown_ok": 0,
+    "verdict": 1,
+    "locations": 1,
+    "mark": 1,
+    "pairs": 8,
+    "pair_verdicts": 0,
+    "pair_linked": 0
+  },
+  "rows": {
+    "adbd54225c4e6ab0": {
+      "id": "adbd54225c4e6ab0",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "e5a641b538269061": {
+      "id": "e5a641b538269061",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "a39fc7cb66c50492": {
+      "id": "a39fc7cb66c50492",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "d0e7d31d6828a1ca": {
+      "id": "d0e7d31d6828a1ca",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "3b130d7178302bf2": {
+      "id": "3b130d7178302bf2",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "631cb0f70c36f144": {
+      "id": "631cb0f70c36f144",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "3e6b39628c35b03f": {
+      "id": "3e6b39628c35b03f",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "0944039b5f9a3aba": {
+      "id": "0944039b5f9a3aba",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "c9c1c881107f6315": {
+      "id": "c9c1c881107f6315",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "a1/Detail!F9"
+    },
+    "5537a9d04038be07": {
+      "id": "5537a9d04038be07",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "5be47d223235c53a": {
+      "id": "5be47d223235c53a",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "7cabb9055ab4deb3": {
+      "id": "7cabb9055ab4deb3",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "209fc029e7869ad3": {
+      "id": "209fc029e7869ad3",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "8f5e6004e5831992": {
+      "id": "8f5e6004e5831992",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "6d42b16af826c797": {
+      "id": "6d42b16af826c797",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "a67129d4c74cc455": {
+      "id": "a67129d4c74cc455",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    }
+  },
+  "runs": [
+    {
+      "id": "adbd54225c4e6ab0",
+      "answer": "{\"private_record\": \"Entry 687\", \"source_unit\": \"\", \"booked_record\": \"Entry 687\", \"amount_unit\": \"\"}",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 228,
+        "total_tokens": 263,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "e5a641b538269061",
+      "answer": "{\"private_record\": \"Hub 120\", \"source_unit\": \"\", \"booked_record\": \"Hub 996\", \"amount_unit\": \"\"}",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 228,
+        "total_tokens": 263,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "a39fc7cb66c50492",
+      "answer": "{\"private_record\": \"Order 881\", \"source_unit\": \"\", \"booked_record\": \"Order 881\", \"amount_unit\": \"E5\"}",
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 257,
+        "total_tokens": 294,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "d0e7d31d6828a1ca",
+      "answer": "{\n  \"private_record\": \"Order 107\",\n  \"source_unit\": \"\",\n  \"booked_record\": \"Order 107\",\n  \"amount_unit\": \"E4\"\n}",
+      "usage": {
+        "completion_tokens": 48,
+        "prompt_tokens": 231,
+        "total_tokens": 279,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "3b130d7178302bf2",
+      "answer": "{\"private_record\": \"Entry 395\", \"source_unit\": \"\", \"booked_record\": \"Entry 395\", \"amount_unit\": \"E4\"}",
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 231,
+        "total_tokens": 268,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "631cb0f70c36f144",
+      "answer": "{\"private_record\": \"Account 498\", \"source_unit\": \"\", \"booked_record\": \"Account 431\", \"amount_unit\": \"E4\"}",
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 230,
+        "total_tokens": 267,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "3e6b39628c35b03f",
+      "answer": "{\"private_record\": \"Hub 219\", \"source_unit\": \"\", \"booked_record\": \"Hub 353\", \"amount_unit\": \"E5\"}",
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 258,
+        "total_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "0944039b5f9a3aba",
+      "answer": "{\"private_record\": \"Account 392\", \"source_unit\": \"\", \"booked_record\": \"Account 261\", \"amount_unit\": \"E5\"}",
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 258,
+        "total_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "c9c1c881107f6315",
+      "answer": "{\"private_record\": \"Account 431\", \"source_unit\": \"E2\", \"booked_record\": \"Account 431\", \"amount_unit\": \"E4\"}",
+      "usage": {
+        "completion_tokens": 40,
+        "prompt_tokens": 230,
+        "total_tokens": 270,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "5537a9d04038be07",
+      "answer": "{\"private_record\": \"Order 115\", \"source_unit\": \"\", \"booked_record\": \"Order 881\", \"amount_unit\": \"E5\"}",
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 257,
+        "total_tokens": 294,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "5be47d223235c53a",
+      "answer": "{\"private_record\": \"Entry 693\", \"source_unit\": \"\", \"booked_record\": \"Entry 395\", \"amount_unit\": \"E4\"}",
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 231,
+        "total_tokens": 268,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "7cabb9055ab4deb3",
+      "answer": "{\"private_record\": \"Entry 130\", \"source_unit\": \"\", \"booked_record\": \"Entry 687\", \"amount_unit\": \"E4\"}",
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 228,
+        "total_tokens": 265,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "209fc029e7869ad3",
+      "answer": "{\"private_record\": \"Account 261\", \"source_unit\": \"\", \"booked_record\": \"Account 261\", \"amount_unit\": \"E5\"}",
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 258,
+        "total_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "8f5e6004e5831992",
+      "answer": "{\n  \"private_record\": \"Hub 353\",\n  \"source_unit\": \"\",\n  \"booked_record\": \"Hub 353\",\n  \"amount_unit\": \"E5\"\n}",
+      "usage": {
+        "completion_tokens": 48,
+        "prompt_tokens": 258,
+        "total_tokens": 306,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "6d42b16af826c797",
+      "answer": "{\"private_record\": \"Order 421\", \"source_unit\": \"\", \"booked_record\": \"Order 107\", \"amount_unit\": \"E4\"}",
+      "usage": {
+        "completion_tokens": 37,
+        "prompt_tokens": 231,
+        "total_tokens": 268,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    },
+    {
+      "id": "a67129d4c74cc455",
+      "answer": "{\"private_record\": \"Hub 996\", \"source_unit\": \"\", \"booked_record\": \"Hub 996\", \"amount_unit\": \"\"}",
+      "usage": {
+        "completion_tokens": 35,
+        "prompt_tokens": 228,
+        "total_tokens": 263,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "qwen38-27b-record"
+    }
+  ]
+}

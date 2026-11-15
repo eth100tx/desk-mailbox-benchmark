@@ -10,6 +10,8 @@ The follow-up tested larger local models, reasoning budgets and parser checks on
 
 ## The experiment
 
+The November checkpoint review compares four-family classification, single-family classification, and extracting record identifiers before comparison. The second 16-email probe changes the wording and includes document paragraphs. [Checkpoint selection and trial results](MODEL-SELECTION.md)
+
 The complete public round has 95 synthetic RFC822 emails, 42 controlled, 46 ordinary and seven unresolved. The main track has 33 matched pairs plus 11 legacy practice cases. A second track adds nine harder pairs. Of the 42 pairs, 36 have opposite verdicts. The remaining six check whether removal or an absent attachment changes what can be inferred. Public historical email is outside this release. Every native email used in these scores ships with it.
 
 The main track covers visible, hidden and very-hidden XLSX sheets, inline and quoted body text, Word paragraphs, text PDFs, image-only PDFs, incremental white overlays, properly removed PDF content and missing attachments. The legacy cases add changed marking, misspelled quoted text, copied attachments, successive revisions, a storage floor and a bidder ranking. Across the new templates, the same CUI, privacy or absent banner occurs on both sides of a pair. The generator varies the target row and includes a decoy.

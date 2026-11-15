@@ -1,0 +1,245 @@
+{
+  "seconds": 482.5044013001025,
+  "raw": {
+    "n": 16,
+    "valid": 16,
+    "pos": 8,
+    "tp": 8,
+    "neg": 8,
+    "fp": 0,
+    "unknown": 0,
+    "unknown_ok": 0,
+    "verdict": 16,
+    "locations": 8,
+    "mark": 16,
+    "pairs": 8,
+    "pair_verdicts": 8,
+    "pair_linked": 8
+  },
+  "verified": {
+    "n": 16,
+    "valid": 16,
+    "pos": 8,
+    "tp": 8,
+    "neg": 8,
+    "fp": 0,
+    "unknown": 0,
+    "unknown_ok": 0,
+    "verdict": 16,
+    "locations": 8,
+    "mark": 16,
+    "pairs": 8,
+    "pair_verdicts": 8,
+    "pair_linked": 8
+  },
+  "runs": [
+    {
+      "ids": [
+        "adbd54225c4e6ab0"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"adbd54225c4e6ab0\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"body\",\n      \"issue\": \"missing\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 640,
+        "output": 842,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "e5a641b538269061"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"e5a641b538269061\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 643,
+        "output": 841,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "a39fc7cb66c50492"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"a39fc7cb66c50492\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:2\",\n      \"issue\": \"missing\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 666,
+        "output": 847,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "d0e7d31d6828a1ca"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"d0e7d31d6828a1ca\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Detail!F6\",\n      \"issue\": \"missing\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 668,
+        "output": 850,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "3b130d7178302bf2"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"3b130d7178302bf2\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Detail!F12\",\n      \"issue\": \"missing\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 669,
+        "output": 851,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "631cb0f70c36f144"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"631cb0f70c36f144\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 667,
+        "output": 840,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "3e6b39628c35b03f"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"3e6b39628c35b03f\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 669,
+        "output": 841,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "0944039b5f9a3aba"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"0944039b5f9a3aba\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 667,
+        "output": 839,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "c9c1c881107f6315"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"c9c1c881107f6315\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Detail!F9\",\n      \"issue\": \"missing\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 668,
+        "output": 851,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "5537a9d04038be07"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"5537a9d04038be07\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 667,
+        "output": 840,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "5be47d223235c53a"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"5be47d223235c53a\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 669,
+        "output": 840,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "7cabb9055ab4deb3"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"7cabb9055ab4deb3\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 638,
+        "output": 836,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "209fc029e7869ad3"
+      ],
+      "answer": "{\"rows\":[{\"id\":\"209fc029e7869ad3\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"a1/page:2\",\"issue\":\"missing\"}]}",
+      "usage": {
+        "input": 667,
+        "output": 813,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "8f5e6004e5831992"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"8f5e6004e5831992\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:2\",\n      \"issue\": \"missing\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 669,
+        "output": 849,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "6d42b16af826c797"
+      ],
+      "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"6d42b16af826c797\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+      "usage": {
+        "input": 668,
+        "output": 840,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    },
+    {
+      "ids": [
+        "a67129d4c74cc455"
+      ],
+      "answer": "{\"rows\":[{\"id\":\"a67129d4c74cc455\",\"verdict\":\"controlled\",\"source\":\"quote\",\"value\":\"body\",\"issue\":\"missing\"}]}",
+      "usage": {
+        "input": 642,
+        "output": 810,
+        "usd": 0,
+        "model": "qwen38-27b-policy-think",
+        "finish": "stop"
+      }
+    }
+  ]
+}

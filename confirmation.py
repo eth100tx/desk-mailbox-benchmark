@@ -31,8 +31,11 @@ def cases():
             groups[(i+row)%2].append(ident)
     for g in groups:rng.shuffle(g)
     return packets,key,[block[j:j+4] for block in groups for j in range(0,len(block),4)]
-def main(model):
-    packets,key,groups=cases();rows={};runs=[];start=time.perf_counter()
+def main(model,track="confirmation",single=False):
+    import renewal
+    packets,key,groups=(renewal.cases() if track=="renewal" else cases())
+    if single:groups=[[i] for group in groups for i in group]
+    rows={};runs=[];start=time.perf_counter()
     for ids in groups:
         ans,u=generate(model,(ROOT/"policy.txt").read_text()+"\nEvidence:\n"+json.dumps([packets[i] for i in ids],ensure_ascii=False))
         runs.append(dict(ids=ids,answer=ans,usage=u))
@@ -41,10 +44,15 @@ def main(model):
                 if r["id"] in ids:rows[r["id"]]=r
         except (KeyError,TypeError,ValueError):pass
     checks={k:review(packets[k],r,True) for k,r in rows.items()}
-    out=ROOT/"confirmation-results";out.mkdir(exist_ok=True)
+    out=ROOT/(track+"-results");out.mkdir(exist_ok=True)
     result=dict(seconds=time.perf_counter()-start,raw=counts(key,score_rows(key,rows)),verified=counts(key,score_rows(key,checks)),runs=runs)
-    (out/(model+".json")).write_text(json.dumps(result,indent=2))
+    (out/(model+("-single" if single else "")+".json")).write_text(json.dumps(result,indent=2))
     print(model,result["raw"],flush=True)
 if __name__=="__main__":
-    import sys
-    main(sys.argv[1])
+    import argparse
+    parser=argparse.ArgumentParser()
+    parser.add_argument("model")
+    parser.add_argument("--track",choices=["confirmation","renewal"],default="confirmation")
+    parser.add_argument("--single",action="store_true")
+    args=parser.parse_args()
+    main(args.model,args.track,args.single)

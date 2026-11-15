@@ -1,0 +1,343 @@
+{
+  "seconds": 24.531629000091925,
+  "raw": {
+    "n": 16,
+    "valid": 16,
+    "pos": 8,
+    "tp": 7,
+    "neg": 8,
+    "fp": 5,
+    "unknown": 0,
+    "unknown_ok": 0,
+    "verdict": 10,
+    "locations": 7,
+    "mark": 10,
+    "pairs": 8,
+    "pair_verdicts": 2,
+    "pair_linked": 2
+  },
+  "rows": {
+    "adbd54225c4e6ab0": {
+      "id": "adbd54225c4e6ab0",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "body"
+    },
+    "e5a641b538269061": {
+      "id": "e5a641b538269061",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "body"
+    },
+    "a39fc7cb66c50492": {
+      "id": "a39fc7cb66c50492",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "a1/page:2"
+    },
+    "d0e7d31d6828a1ca": {
+      "id": "d0e7d31d6828a1ca",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "a1/Detail!F6"
+    },
+    "3b130d7178302bf2": {
+      "id": "3b130d7178302bf2",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "a1/Detail!F12"
+    },
+    "631cb0f70c36f144": {
+      "id": "631cb0f70c36f144",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "quote"
+    },
+    "3e6b39628c35b03f": {
+      "id": "3e6b39628c35b03f",
+      "verdict": "ordinary",
+      "issue": "none",
+      "source": "",
+      "value": ""
+    },
+    "0944039b5f9a3aba": {
+      "id": "0944039b5f9a3aba",
+      "verdict": "ordinary",
+      "issue": "none",
+      "source": "",
+      "value": ""
+    },
+    "c9c1c881107f6315": {
+      "id": "c9c1c881107f6315",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "a1/Detail!F9"
+    },
+    "5537a9d04038be07": {
+      "id": "5537a9d04038be07",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "quote"
+    },
+    "5be47d223235c53a": {
+      "id": "5be47d223235c53a",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "quote"
+    },
+    "7cabb9055ab4deb3": {
+      "id": "7cabb9055ab4deb3",
+      "verdict": "ordinary",
+      "issue": "none",
+      "source": "",
+      "value": ""
+    },
+    "209fc029e7869ad3": {
+      "id": "209fc029e7869ad3",
+      "verdict": "unknown",
+      "issue": "unknown",
+      "source": "",
+      "value": ""
+    },
+    "8f5e6004e5831992": {
+      "id": "8f5e6004e5831992",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "a1/page:2"
+    },
+    "6d42b16af826c797": {
+      "id": "6d42b16af826c797",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "quote"
+    },
+    "a67129d4c74cc455": {
+      "id": "a67129d4c74cc455",
+      "verdict": "controlled",
+      "issue": "missing",
+      "source": "quote",
+      "value": "body"
+    }
+  },
+  "runs": [
+    {
+      "id": "adbd54225c4e6ab0",
+      "answer": "{\n  \"private_record\": \"Entry 687\",\n  \"source_unit\": \"E3\",\n  \"booked_record\": \"Entry 687\",\n  \"amount_unit\": \"E4\"\n}",
+      "usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 229,
+        "total_tokens": 292,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "e5a641b538269061",
+      "answer": "{\n  \"private_record\": \"Hub 996\",\n  \"source_unit\": \"E3\",\"booked_record\": \"Hub 996\",\n  \"amount_unit\": \"E4\"\n}",
+      "usage": {
+        "completion_tokens": 60,
+        "prompt_tokens": 229,
+        "total_tokens": 289,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "a39fc7cb66c50492",
+      "answer": "{\n  \"private_record\": \"Order 881\",\n  \"source_unit\": \"E3\",\"booked_record\": \"Order 881\",\n  \"amount_unit\": \"E5\"\n}",
+      "usage": {
+        "completion_tokens": 60,
+        "prompt_tokens": 260,
+        "total_tokens": 320,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "d0e7d31d6828a1ca",
+      "answer": "{\n  \"private_record\": \"Order 107\",\n  \"source_unit\": \"E3\",\n  \"booked_record\": \"Order 107\",\n  \"amount_unit\": \"E4\"\n}",
+      "usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 232,
+        "total_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "3b130d7178302bf2",
+      "answer": "{\n  \"private_record\": \"Entry 395\",\n  \"source_unit\": \"E3\",\n  \"booked_record\": \"Entry 395\",\n  \"amount_unit\": \"E4\"\n}",
+      "usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 232,
+        "total_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "631cb0f70c36f144",
+      "answer": "{\n  \"private_record\": \"Account 498\",\n  \"source_unit\": \"E2\",\n  \"booked_record\": \"Account 498\",\n  \"amount_unit\": \"E2\"\n}",
+      "usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 231,
+        "total_tokens": 294,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "3e6b39628c35b03f",
+      "answer": "{\"private_record\": \"Hub 219\", \"source_unit\": \"E2\", \"booked_record\": \"Hub 353\", \"amount_unit\": \"E5\"}",
+      "usage": {
+        "completion_tokens": 52,
+        "prompt_tokens": 261,
+        "total_tokens": 313,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "0944039b5f9a3aba",
+      "answer": "{\n  \"private_record\": \"Account 392\",\n  \"source_unit\": \"E2\",\n  \"booked_record\": \"Account 261\",\n  \"amount_unit\": \"E5\"\n}",
+      "usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 261,
+        "total_tokens": 324,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "c9c1c881107f6315",
+      "answer": "{\n  \"private_record\": \"Account 431\",\n  \"source_unit\": \"E2\",\"booked_record\": \"Account 431\",\n  \"amount_unit\": \"E4\"\n}",
+      "usage": {
+        "completion_tokens": 60,
+        "prompt_tokens": 231,
+        "total_tokens": 291,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "5537a9d04038be07",
+      "answer": "{\"private_record\": \"Order 115\", \"source_unit\": \"E3\", \"booked_record\": \"Order 115\", \"amount_unit\": \"E3\"}",
+      "usage": {
+        "completion_tokens": 51,
+        "prompt_tokens": 260,
+        "total_tokens": 311,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "5be47d223235c53a",
+      "answer": "{\n  \"private_record\": \"Entry 693\",\n  \"source_unit\": \"E3\",\n  \"booked_record\": \"Entry 693\",\n  \"amount_unit\": \"E3\"\n}",
+      "usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 232,
+        "total_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "7cabb9055ab4deb3",
+      "answer": "{\n  \"private_record\": \"Entry 130\",\n  \"source_unit\": \"E3\",\"booked_record\": \"Entry 687\", \"amount_unit\": \"E4\"\n}",
+      "usage": {
+        "completion_tokens": 58,
+        "prompt_tokens": 229,
+        "total_tokens": 287,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "209fc029e7869ad3",
+      "answer": "",
+      "usage": {
+        "completion_tokens": 160,
+        "prompt_tokens": 261,
+        "total_tokens": 421,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "8f5e6004e5831992",
+      "answer": "{\"private_record\": \"Hub 353\", \"source_unit\": \"E2\", \"booked_record\": \"Hub 353\", \"amount_unit\": \"E5\"}",
+      "usage": {
+        "completion_tokens": 52,
+        "prompt_tokens": 261,
+        "total_tokens": 313,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "6d42b16af826c797",
+      "answer": "{\n  \"private_record\": \"Order 421\",\n  \"source_unit\": \"E3\",\n  \"booked_record\": \"Order 421\",\n  \"amount_unit\": \"E3\"\n}",
+      "usage": {
+        "completion_tokens": 63,
+        "prompt_tokens": 232,
+        "total_tokens": 295,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    },
+    {
+      "id": "a67129d4c74cc455",
+      "answer": "{\n  \"private_record\": \"Hub 996\",\n  \"source_unit\": \"E2\",\"booked_record\": \"Hub 996\",\n  \"amount_unit\": \"E4\"\n}",
+      "usage": {
+        "completion_tokens": 60,
+        "prompt_tokens": 229,
+        "total_tokens": 289,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "model": "bolt-e4b-record"
+    }
+  ]
+}

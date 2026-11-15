@@ -10,6 +10,12 @@ def main():
     cli.add_argument("--cpu-experts",type=int,default=0);cli.add_argument("--guided",action="store_true")
     cli.add_argument("--join-only",action="store_true")
     cli.add_argument("--pointers-only",action="store_true")
+    cli.add_argument("--confirmation-only",action="store_true")
+    cli.add_argument("--renewal-only",action="store_true")
+    cli.add_argument("--single",action="store_true",help="One family per request in confirmation-only mode")
+    cli.add_argument("--record-match",action="store_true",help="Run both single-booking tracks with explicit record extraction")
+    cli.add_argument("--labeled",action="store_true",help="Label and constrain evidence IDs in record-match mode")
+    cli.add_argument("--reasoning-budget",type=int,default=768)
     args=cli.parse_args()
     lease=socket.socket()
     while True:
@@ -20,7 +26,7 @@ def main():
         except OSError:time.sleep(2)
     name="local-"+args.name
     flags=["--host","127.0.0.1","--port","18172","--alias",args.name,"-c","8192","-np","2",
-           "--no-cache-prompt","--jinja","--reasoning","on","--reasoning-budget","768" if args.name.endswith("-think") else "0","--fit","on","--fit-target","1024","-v"]
+           "--no-cache-prompt","--jinja","--reasoning","on","--reasoning-budget",str(args.reasoning_budget) if args.name.endswith("-think") else "0","--fit","on","--fit-target","1024"]
     if args.cpu_experts:flags+=["--n-cpu-moe",str(args.cpu_experts)]
     log=args.model.parent/(args.name+".server.log")
     with log.open("w") as f:
@@ -33,6 +39,21 @@ def main():
                 except requests.RequestException:pass
                 time.sleep(1)
             else:raise TimeoutError("Model load timed out")
+            if args.renewal_only:
+                subprocess.run([sys.executable,str(ROOT/"confirmation.py"),name,"--track","renewal"],check=True)
+                return
+            if args.record_match:
+                subprocess.run([sys.executable,str(ROOT/"record_match.py"),name,*(["--labeled"] if args.labeled else [])],check=True)
+                return
+            if args.confirmation_only:
+                import json
+                flags=["--single"] if args.single else []
+                cmd=[sys.executable,str(ROOT/"confirmation.py"),name,*flags]
+                subprocess.run(cmd,check=True)
+                path=ROOT/"confirmation-results"/(name+("-single" if args.single else "")+".json")
+                if json.loads(path.read_text())["raw"]["verdict"]==16:
+                    subprocess.run([*cmd,"--track","renewal"],check=True)
+                return
             lanes=[] if args.join_only else [("evaluate.py","")]
             if args.guided or args.join_only:lanes.append(("local_join.py","-join"))
             if args.guided:lanes.append(("local_join.py","-pointers"))
