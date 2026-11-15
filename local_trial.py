@@ -13,6 +13,8 @@ def main():
     cli.add_argument("--confirmation-only",action="store_true")
     cli.add_argument("--renewal-only",action="store_true")
     cli.add_argument("--single",action="store_true",help="One family per request in confirmation-only mode")
+    cli.add_argument("--full95",action="store_true",help="Run the four-family serial protocol across both frozen tracks")
+    cli.add_argument("--blind",action="store_true",help="Run the frozen fast resolver on the forwarded-sheet holdout")
     cli.add_argument("--record-match",action="store_true",help="Run both single-booking tracks with explicit record extraction")
     cli.add_argument("--labeled",action="store_true",help="Label and constrain evidence IDs in record-match mode")
     cli.add_argument("--reasoning-budget",type=int,default=768)
@@ -39,6 +41,14 @@ def main():
                 except requests.RequestException:pass
                 time.sleep(1)
             else:raise TimeoutError("Model load timed out")
+            if args.full95:
+                for extra in [[],["--binding"]]:
+                    subprocess.run([sys.executable,str(ROOT/"evaluate.py"),name,"--workers","1","--batch-size","4",*extra],check=True)
+                subprocess.run([sys.executable,str(ROOT/"judge.py"),name],check=True)
+                return
+            if args.blind:
+                subprocess.run([sys.executable,str(ROOT/"blind_sheet.py"),"predict"],check=True)
+                return
             if args.renewal_only:
                 subprocess.run([sys.executable,str(ROOT/"confirmation.py"),name,"--track","renewal"],check=True)
                 return

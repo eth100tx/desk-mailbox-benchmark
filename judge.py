@@ -38,6 +38,10 @@ def collect(model):
         folder=ROOT/"data"/("binding" if binding else "")
         key=read(folder/"key.json");keys.update(key);schedule=read(folder/"schedule.json")
         dest=ROOT/"runs"/(model+("-binding" if binding else ""))
+        if (dest/"schedule.json").exists():
+            custom=read(dest/"schedule.json")
+            assert [i for batch in custom for i in batch]==[i for batch in schedule for i in batch]
+            schedule=custom
         timing=read(dest/"timing.json");seconds+=timing["seconds"];workers.append(timing["workers"])
         for n,ids in enumerate(schedule):
             result=read(dest/f"{n:02}.json");assert ids==result["ids"]

@@ -57,6 +57,7 @@ def generate(model,prompt):
 def main():
     cli=argparse.ArgumentParser(); cli.add_argument("model");cli.add_argument("--workers",type=int,default=1)
     cli.add_argument("--binding",action="store_true")
+    cli.add_argument("--batch-size",type=int)
     args=cli.parse_args()
     if args.model not in {"bolt","qwen","haiku","luna","ema"} and not re.fullmatch(r"local-[a-z0-9][a-z0-9-]*",args.model):
         cli.error("Expected an existing entrant or local-<checkpoint> for llama.cpp")
@@ -64,6 +65,10 @@ def main():
     data=ROOT/"data"/("binding" if args.binding else "")
     packets={p["id"]:p for p in json.loads((data/"packets.json").read_text())}
     schedule=json.loads((data/"schedule.json").read_text())
+    if args.batch_size:
+        ids=[ident for batch in schedule for ident in batch]
+        schedule=[ids[i:i+args.batch_size] for i in range(0,len(ids),args.batch_size)]
+        (target/"schedule.json").write_text(json.dumps(schedule,indent=2))
     guide=(ROOT/"policy.txt").read_text()
     if args.model=="ema":
         from predictive import fit,classify
