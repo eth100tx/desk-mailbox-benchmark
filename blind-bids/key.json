@@ -1,0 +1,72 @@
+{
+  "70ec65646a094422d6a87dcc": {
+    "scenario": "distinct_suppliers",
+    "verdict": "controlled",
+    "issue": "missing",
+    "source": "quote",
+    "values": [
+      "a1/Register!B3",
+      "a1/Register!B4"
+    ]
+  },
+  "135c68fbe08eb2101ca12385": {
+    "scenario": "distinct_suppliers",
+    "verdict": "controlled",
+    "issue": "missing",
+    "source": "quote",
+    "values": [
+      "a1/Register!B4"
+    ]
+  },
+  "e5cf2385ba72d1aaefd95f69": {
+    "scenario": "distinct_suppliers",
+    "verdict": "ordinary",
+    "issue": "none",
+    "source": "",
+    "values": []
+  },
+  "5f2ef6e5e1d8349f2c26182b": {
+    "scenario": "distinct_suppliers",
+    "verdict": "controlled",
+    "issue": "missing",
+    "source": "quote",
+    "values": [
+      "a1/Register!B3"
+    ]
+  },
+  "0af9ad9a8cc3f7189b936774": {
+    "scenario": "distinct_suppliers",
+    "verdict": "controlled",
+    "issue": "correct",
+    "source": "quote",
+    "values": [
+      "a1/Register!B3",
+      "a1/Register!B4"
+    ]
+  },
+  "a54063e6430648a4e91bf233": {
+    "scenario": "distinct_suppliers",
+    "verdict": "controlled",
+    "issue": "correct",
+    "source": "quote",
+    "values": [
+      "a1/Register!B3"
+    ]
+  },
+  "10d0061d0cfe8c79827aa1ad": {
+    "scenario": "distinct_suppliers",
+    "verdict": "ordinary",
+    "issue": "excess",
+    "source": "",
+    "values": []
+  },
+  "7395096fd8dbeb1801bf7029": {
+    "scenario": "distinct_suppliers",
+    "verdict": "controlled",
+    "issue": "correct",
+    "source": "quote",
+    "values": [
+      "a1/Register!B2"
+    ]
+  }
+}
