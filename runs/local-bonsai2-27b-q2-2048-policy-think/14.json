@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "c40dac39f273",
+    "6751e2330724",
+    "93207d8400a2",
+    "8e49b4f162de"
+  ],
+  "rows": [
+    {
+      "id": "c40dac39f273",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    },
+    {
+      "id": "6751e2330724",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "93207d8400a2",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "quote",
+      "issue": "missing"
+    },
+    {
+      "id": "8e49b4f162de",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "none"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"c40dac39f273\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    },\n    {\n      \"id\": \"6751e2330724\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"93207d8400a2\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"quote\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"8e49b4f162de\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"none\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 974,
+    "output": 2281,
+    "usd": 0,
+    "model": "bonsai2-27b-q2-2048-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 33.27955239987932
+}

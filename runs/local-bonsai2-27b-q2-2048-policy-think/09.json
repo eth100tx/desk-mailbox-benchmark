@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "b0ebaf5ca44b",
+    "090364ef0e07",
+    "8c732fbfc0ec",
+    "a0caff74d3d3"
+  ],
+  "rows": [
+    {
+      "id": "b0ebaf5ca44b",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "090364ef0e07",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "correct"
+    },
+    {
+      "id": "8c732fbfc0ec",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "wrong-category"
+    },
+    {
+      "id": "a0caff74d3d3",
+      "verdict": "controlled",
+      "source": "a1/Inputs!A2",
+      "value": "a1/Inputs!B2",
+      "issue": "missing"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"b0ebaf5ca44b\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"090364ef0e07\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Register!B2\",\n      \"issue\": \"correct\"\n    },\n    {\n      \"id\": \"8c732fbfc0ec\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:1\",\n      \"issue\": \"wrong-category\"\n    },\n    {\n      \"id\": \"a0caff74d3d3\",\n      \"verdict\": \"controlled\",\n      \"source\": \"a1/Inputs!A2\",\n      \"value\": \"a1/Inputs!B2\",\n      \"issue\": \"missing\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1223,
+    "output": 2304,
+    "usd": 0,
+    "model": "bonsai2-27b-q2-2048-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 32.74124379991554
+}

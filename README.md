@@ -1,5 +1,7 @@
 # Can a mailbox scanner connect a forwarded price to its source?
 
+[Ternary Bonsai 2 on the RTX 4090: verdicts, exact evidence and memory](BONSAI.md)
+
 [Full 95-case Qwen and Haiku comparison, plus a blind test on 32 forwarded emails](FULL-ROUND.md)
 
 A fictional supplier offer and a public market benchmark both read **$42.61**. An analyst forwards the same workbook in two different emails. Which copy should a reviewer flag, and which hidden cell supports that decision?

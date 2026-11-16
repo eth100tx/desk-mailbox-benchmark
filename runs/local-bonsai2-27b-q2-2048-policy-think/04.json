@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "5d149338ae45",
+    "d01d2d1d07b9",
+    "292627391aa3",
+    "7e6f29e869ea"
+  ],
+  "rows": [
+    {
+      "id": "5d149338ae45",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "d01d2d1d07b9",
+      "verdict": "ordinary",
+      "source": "",
+      "value": "",
+      "issue": "excess"
+    },
+    {
+      "id": "292627391aa3",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:2",
+      "issue": "missing"
+    },
+    {
+      "id": "7e6f29e869ea",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "wrong-category"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"5d149338ae45\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"d01d2d1d07b9\",\n      \"verdict\": \"ordinary\",\n      \"source\": \"\",\n      \"value\": \"\",\n      \"issue\": \"excess\"\n    },\n    {\n      \"id\": \"292627391aa3\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"7e6f29e869ea\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Register!B2\",\n      \"issue\": \"wrong-category\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1251,
+    "output": 2296,
+    "usd": 0,
+    "model": "bonsai2-27b-q2-2048-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 32.56957089994103
+}

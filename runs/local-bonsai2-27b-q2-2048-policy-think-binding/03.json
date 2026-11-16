@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "d1c2655ef32d",
+    "799012f4f38c",
+    "a8b4043a7196",
+    "0513fc6851ec"
+  ],
+  "rows": [
+    {
+      "id": "d1c2655ef32d",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "missing"
+    },
+    {
+      "id": "799012f4f38c",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B2",
+      "issue": "missing"
+    },
+    {
+      "id": "a8b4043a7196",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/page:1",
+      "issue": "missing"
+    },
+    {
+      "id": "0513fc6851ec",
+      "verdict": "controlled",
+      "source": "quote",
+      "value": "a1/Register!B3",
+      "issue": "missing"
+    }
+  ],
+  "answer": "{\n  \"rows\": [\n    {\n      \"id\": \"d1c2655ef32d\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Register!B3\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"799012f4f38c\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Register!B2\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"a8b4043a7196\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/page:1\",\n      \"issue\": \"missing\"\n    },\n    {\n      \"id\": \"0513fc6851ec\",\n      \"verdict\": \"controlled\",\n      \"source\": \"quote\",\n      \"value\": \"a1/Register!B3\",\n      \"issue\": \"missing\"\n    }\n  ]\n}",
+  "usage": {
+    "input": 1359,
+    "output": 2311,
+    "usd": 0,
+    "model": "bonsai2-27b-q2-2048-policy-think",
+    "finish": "stop"
+  },
+  "seconds": 34.129843400092795
+}
