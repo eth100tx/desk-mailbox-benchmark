@@ -49,3 +49,5 @@ NVIDIA measured 38, 47 and 53 aggregate generation tokens/s at one, two and four
 ## Scope of the findings
 
 These figures describe one disclosed synthetic practice set with few independent templates. They do not estimate prevalence, legal CUI status, real contractor recall or end-to-end PST scanning speed. Producers deliberately made counterpart files identical and used an exercise policy that made their source decisive. A new release should hold out whole projects, writers and forward chains, include larger workbooks and independently adjudicate ambiguous cases. A perfect result here warrants a blind test on new material. The corpus and scores are public for replication. Future evaluations should use fresh held-out cases.
+
+[Results by attachment type and reasoning task, with routing replay](ATTACHMENT-ROUTING.md)
